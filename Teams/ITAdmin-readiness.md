@@ -18,12 +18,12 @@ ms.custom:
 description: Обучающие видео, презентации PowerPoint, учебники и другие ресурсы для администраторов по планированию, развертыванию и запуску Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dbba9535bed24c52578f8c01f37557774bbfa5e3
-ms.sourcegitcommit: e5f5a1a164576b317e89340e233c9b67f082d19c
+ms.openlocfilehash: 8e4b708a0fd250dd5ae8adeaa4f47f014ad359cd
+ms.sourcegitcommit: 2f9a83a1bae8cbee5a0d65464bd47f6735b2d206
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/09/2022
-ms.locfileid: "68890068"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "69025161"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Начало работы с обучением администраторов для Microsoft Teams
 
@@ -61,6 +61,8 @@ ms.locfileid: "68890068"
 | Введение в телефонную систему | [Видео](https://aka.ms/teams-phone-system) | [Палубе](https://aka.ms/teams-phone-system-deck) |
 | Прямая маршрутизация | [Видео 1. Планирование прямой маршрутизации в Teams](https://aka.ms/teams-dr-plan)<br>[Видео 2. Настройка прямой маршрутизации и управление ими в Teams](https://aka.ms/teams-dr-config)<br>[Видео 3. Переход на прямую маршрутизацию в Teams](https://aka.ms/teams-dr-migrate)  | [Палубе](https://aka.ms/teams-direct-routing-deck) |
 | Переход со Skype для бизнеса на Teams | [Видео 1. Введение в обновление](https://aka.ms/teams-upgrade-intro)</br>[Видео 2. Планирование обновления](https://aka.ms/teams-upgrade-plan)</br>[Видео 3. Сосуществование и взаимодействие](https://aka.ms/teams-upgrade-coexistence-interop)</br>[Видео 4. Взаимодействие с администратором](https://aka.ms/teams-upgrade-admin) | [Палубе](https://aka.ms/teams-upgrade-deck)|
+| Сборник схем развертывания устройств Teams | | [Палубе](https://aka.ms/teams-devices-deployment-playbook) |
+| Сборник схем развертывания телефонов Teams | | [Палубе](https://aka.ms/teams-phone-deployment-playbook) |
 
 <h2>Комнаты Teams Основы для ИТ-& AV Pro</h2>
 
@@ -77,7 +79,6 @@ ms.locfileid: "68890068"
 | Модуль 7. Управление Комнаты Microsoft Teams, часть 2  | [Палубе](https://aka.ms/TeamsRoomsModule7) |
 | Модуль 8. Функции, внедрение и устранение неполадок | [Палубе](https://aka.ms/TeamsRoomsModule8)|
 | Инструкции по присоединению одним касанием |  [Палубе](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8b-one-touch-join-instructions.pdf?raw=true)  |
-| Общие сведения об управляемых службах Комнаты Microsoft Teams | [Палубе](https://download.microsoft.com/download/c/e/a/cead2658-d64d-43b7-a728-b4512b325fb8/module-7b-Teams-Managed-Rooms-intro.pdf)  |
 
 <h2>Устройства Teams Android</h2>
 
