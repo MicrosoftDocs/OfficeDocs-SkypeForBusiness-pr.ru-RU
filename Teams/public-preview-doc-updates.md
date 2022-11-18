@@ -1,7 +1,7 @@
 ---
 title: Общедоступная предварительная версия в Microsoft Teams
-ms.author: mikeplum
-author: MikePlumleyMSFT
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -14,29 +14,29 @@ ms.reviewer: dansteve
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Learn about the public preview in Microsoft Teams. Try out new features and provide feedback.
+description: Ознакомьтесь с общедоступной предварительной версией в Microsoft Teams. Опробуйте новые возможности и поделитесь отзывами.
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: ffdd34d8a36726d96bc44ae766e91ca6ae77280b
-ms.sourcegitcommit: b535a70df5bc842f597889582df3eb86371f8139
+ms.openlocfilehash: e3fdf0901d150df63fded6dc49822ad81f81f7d5
+ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2022
-ms.locfileid: "68869594"
+ms.lasthandoff: 04/26/2022
+ms.locfileid: "65059190"
 ---
 # <a name="microsoft-teams-public-preview"></a>Общедоступная предварительная версия Microsoft Teams
 
 > [!NOTE] 
-> Функции, включенные в предварительную версию, могут быть неполными и подвергаться изменениям перед общедоступным выпуском. Они предназначены только для оценки и изучения. Предварительные версии функций не поддерживаются в Office 365 для государственных организаций Community Cloud (GCC).
+> Функции, включенные в предварительную версию, могут быть неполными. Они также могут быть изменены перед общедоступным выпуском. Они предназначены только для оценки и изучения. Функции предварительной версии не поддерживаются в облаке сообщества Office 365 для государственных организаций (GCC).
 
-Public Preview for Microsoft Teams provides early access to unreleased features in Teams. Previews allow you to explore and test upcoming features. We also welcome feedback on any feature in public previews. Public preview is enabled per Team user, so you don't need to worry about affecting your entire organization.
+Общедоступная предварительная версия Microsoft Teams обеспечивает ранний доступ к невыпущенным функциям в Teams. Предварительные версии позволяют вам изучать и тестировать будущие функции. Мы также будем рады вашим отзывам о любых функциях из общедоступных предварительных версий. Общедоступная предварительная версия включается для каждого пользователя Teams отдельно, поэтому вам не нужно беспокоиться о влиянии на всю вашу организацию.
 
-Список доступных в общедоступной предварительной версии Teams см. в [технических заметках о общедоступной предварительной версии Microsoft Teams](https://techcommunity.microsoft.com/t5/microsoft-teams-public-preview/bd-p/MicrosoftTeamsPublicPreview), [заметках о выпуске для Teams Администратор функций](/OfficeUpdates/teams-admin) и [заметках о выпуске для Office Current Channel (предварительная версия)](/officeupdates/current-channel-preview) .
+Список доступных функций в общедоступной предварительной версии Teams можно найти в разделах [Общедоступная предварительная версия Microsoft Teams](https://techcommunity.microsoft.com/t5/microsoft-teams-public-preview/bd-p/MicrosoftTeamsPublicPreview), [Заметки о выпуске для функций администрирования Teams](/OfficeUpdates/teams-admin)и [Новые возможности Teams](https://support.microsoft.com/office/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de).
 
 ## <a name="set-the-update-policy"></a>Настройка политики обновления
 
-Public preview is enabled on a per-user basis, and the option to turn on public preview is controlled in an admin policy. Update policies are used to manage Teams and Office preview users who will see pre-release or preview features in the Teams app. You can use the Global (Org-wide default) policy and customize it, or create one or more custom policies for your users. The policy needs to be assigned to specific users because it doesn't over-write the global policy.
+Общедоступная предварительная версия включается для каждого пользователя, а параметр включения общедоступной предварительной версии управляется политикой администрирования. Политики обновления используются для управления пользователями предварительных версий Teams и Office, которым будут показаны предварительные функции в приложении Teams. Вы можете использовать глобальную (по умолчанию для всей организации) политику и настроить ее или создать одну или несколько настраиваемых политик для своих пользователей. Политику следует назначать конкретным пользователям, так как она не переопределяет глобальную политику.
 
 1. Войдите в [Центр администрирования Microsoft Teams](https://admin.teams.microsoft.com/).
 
@@ -73,14 +73,6 @@ Public preview is enabled on a per-user basis, and the option to turn on public 
 
 > [!NOTE]  
 > Этот параметр доступен, только если для параметра **Отображать функции предварительной версии** установлено значение **Включено**.
-
-### <a name="public-preview-for-microsoft-teams-rooms-on-windows"></a>Общедоступный предварительный просмотр Комнат Microsoft Teams в Windows
-
-По умолчанию общедоступный предварительный просмотр отключен. Когда включен общедоступный предварительный просмотр, конечные пользователи имеют доступ к функциям, которые находятся в открытой предварительной версии во включенных Комнатах Teams. Чтобы включить общедоступный предварительный просмотр, добавьте ```<EnablePublicPreview>True</EnablePublicPreview>``` в XML-файл конфигурации.
-
-Мы рекомендуем зарегистрировать 5–10 устройств в общедоступных предварительных версиях. 
-
-Все общедоступные функции предварительной версии объявляются на [Microsoft Teams Public Preview — Сообщество Microsoft Tech Community](https://techcommunity.microsoft.com/t5/microsoft-teams-public-preview/bd-p/MicrosoftTeamsPublicPreview)
 
 ## <a name="teams-now-follows-office-preview-users"></a>Teams теперь отслеживает пользователей предварительной версии Office
 
