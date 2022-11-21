@@ -22,12 +22,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Узнайте, какие офисные и конференц-телефоны сертифицированы для Microsoft Teams, чтобы обеспечить наилучшие результаты.
-ms.openlocfilehash: a285deed98c87d7d90f3f0d254a1c056b2dfc421
-ms.sourcegitcommit: ad7eb80a266a96bb894f3801b51587c07786c257
+ms.openlocfilehash: 06d5f81b830115d775a2237f7758d3f7ec62be18
+ms.sourcegitcommit: ff161779577ce9cc892f1b6b8861ad49ff4c3ca3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/19/2022
-ms.locfileid: "69126935"
+ms.lasthandoff: 11/21/2022
+ms.locfileid: "69131148"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Устройства Android, сертифицированные в Microsoft Teams
 
@@ -407,6 +407,7 @@ ms.locfileid: "69126935"
 
 | Модель устройства  | Версия встроенного ПО | Включенный выпуск продукта|
 |:--------------|:-----------------|:-------------------------|
+|Аккуратная панель панели | `NFA1.20220914.1215` | Обновление 2022 #3A  |
 |Аккуратная панель панели | `NFA1.20220914.1206` | Обновление 2022 #3A  |
 |Планировщик касания Logitech | `1.7.200` |Обновление 2022 #3A  |
 |Yealink RoomPanel | ` 147.15.0.33 ` | Обновление 2022 г. No 3 |
