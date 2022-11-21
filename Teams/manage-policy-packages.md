@@ -19,13 +19,13 @@ ms.custom:
 - seo-marvel-apr2020
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Узнайте, как использовать пакеты политик и управлять ими в Microsoft Teams для упрощения, оптимизации и обеспечения согласованности при управлении политиками для групп пользователей.
-ms.openlocfilehash: 75c4a220def2978a843fa69747ae86217a4d152b
-ms.sourcegitcommit: 1fe19c4a6e9f6116515df531786cc3e482e27093
+description: Узнайте, как использовать, управлять и настраивать пакеты политик в Microsoft Teams для упрощения, оптимизации и обеспечения согласованности при управлении политиками для групп пользователей.
+ms.openlocfilehash: f91fdcdecb66fbc08b8ce75563f6034594fd448c
+ms.sourcegitcommit: ad7eb80a266a96bb894f3801b51587c07786c257
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/08/2022
-ms.locfileid: "68877520"
+ms.lasthandoff: 11/19/2022
+ms.locfileid: "69128199"
 ---
 # <a name="manage-policy-packages-for-microsoft-teams"></a>Управление пакетами политик для Microsoft Teams
 
@@ -36,9 +36,6 @@ ms.locfileid: "68877520"
 :::image type="content" source="media/policy-packages-admin-center.png" alt-text="Снимок экрана: страница пакетов политики в Центре администрирования." lightbox="media/policy-packages-admin-center.png":::
 
 Вы можете настроить параметры политик в пакете политики в соответствии с потребностями пользователей. При изменении параметров политик в пакете все пользователи, назначенные пакету, получают обновленные параметры. Вы управляете пакетами политик с помощью Центра администрирования Microsoft Teams или PowerShell.
-
-> [!NOTE]
-> Эта функция временно доступна в общедоступной предварительной версии для всех клиентов Microsoft Teams. Чтобы получить эту функцию после предварительной версии, каждому пользователю потребуется лицензия на надстройку Advanced Communications. Дополнительные сведения см. в статье [Надстройка Advanced Communications для Microsoft Teams](/microsoftteams/teams-add-on-licensing/advanced-communications).
 
 ## <a name="what-is-a-policy-package"></a>Что такое пакет политики?
 

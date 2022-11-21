@@ -17,12 +17,12 @@ ms.localizationpriority: high
 f1.keywords:
 - NOCSH
 description: Полное руководство по переносу данных из Slack в Microsoft Teams.
-ms.openlocfilehash: fbcd47f894445595534bf6a88d21f7372268d983
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
-ms.translationtype: HT
+ms.openlocfilehash: b283e38332ab592ec2dedc8a61c1575edfb3359d
+ms.sourcegitcommit: 9504b7a67e593f5575060b09b69817325e2a1f77
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268754"
+ms.lasthandoff: 11/18/2022
+ms.locfileid: "69111116"
 ---
 # <a name="migrate-from-slack-to-microsoft-teams"></a>Перенос данных из Slack в Microsoft Teams
 
@@ -36,7 +36,7 @@ ms.locfileid: "67268754"
 
 ## <a name="plan-your-migration-from-slack"></a>Спланируйте перенос данных из Slack
 ### <a name="what-you-can-and-cant-migrate"></a>Что можно перенести, а что нельзя
-Объем доступных для переноса данных зависит от вашего плана обслуживания Slack. Например, некоторые планы обслуживания Slack позволяют экспортировать только историю и файлы общедоступных каналов, а другие требуют запроса DocuSign для включения в экспорт закрытых каналов и прямых сообщений. 
+Your Slack service plan will determine what you can and can’t migrate. For example, some Slack service plans only let you export public channels history and files, other require a DocuSign request to include Private Channels and Direct Messages. 
 
 Чтобы определить ваш уровень обслуживания рабочей области Slack, войдите в Slack и прочитайте тип плана на странице **Об этой рабочей области**.
 
@@ -54,7 +54,7 @@ ms.locfileid: "67268754"
 ### <a name="assess-your-slack-workspaces"></a>как получить доступ к рабочим областям Slack.
 Прежде чем составлять план переноса данных для вашей организации, необходимо собрать сведения о ваших рабочих областях Slack. Поняв, как используются рабочие области Slack, вы сможете лучше определить объем переносимых данных. Например, сколько рабочих областей перемещается? Используются ли они определенным отделом, несколькими отделами или всей организацией?
 
-Если вы являетесь участником рабочих областей Slack, которые нужно перенести, вы можете оценить их использование самостоятельно, перейдя на страницу *\<your Slack workspace\>.slack.com/stats*. Просмотрите вкладки "Каналы" и "Участники", чтобы найти закономерности в использовании. Определите, какие рабочие области следует перенести (а какие не требуется переносить). 
+If you’re a member of the Slack Workspaces you want to migrate, you can analyze the usage yourself by going to *\<your Slack workspace\>.slack.com/stats*. Review the Channels and Members tabs to look for usage patterns. Decide which workspaces you want to migrate (and which ones you want to leave behind). 
 
 > [!NOTE]
 > Если у вас нет доступа к странице статистики, вы не являетесь администратором или владельцем. 
@@ -68,7 +68,7 @@ ms.locfileid: "67268754"
 Дополнительные сведения о возможностях экспорта Slack можно найти на веб-сайте Slack: https://get.slack.help/hc/articles/204897248-Guide-to-Slack-import-and-export-tools 
 
 > [!IMPORTANT]
-> Ознакомьтесь с требованиями конфиденциальности и обеспечения соответствия вашей организации в отношении данных каналов. В вашей организации могут применяться требования соответствия в отношении этих данных, их хранения и обработки, в дополнение к правилам жизненного цикла для данных, идентифицирующих конечного пользователя (EUII).
+> Check your organization’s privacy and compliance requirements around channel data. Your organization may have compliance requirements around the handling, storage, and processing of this data, in addition to complying with the lifecycle of end-user identifiable content (EUII).
 
 ### <a name="export-direct-messages"></a>Экспорт прямых сообщений
 Прямые сообщения — то же самое, что и чат в Teams, который представляет собой не связанные с каналами беседы один на один или одного пользователя со многими. Возможность экспорта зависит от вашего плана обслуживания Slack, а также от того, запрашивали ли вы включение прямых сообщений в экспорт Slack. В настоящий момент Teams не поддерживает импорт прямых сообщений. Обратитесь к партнеру Майкрософт, чтобы узнать о сторонних решениях, которые помогают переносить содержимое прямых сообщений в Teams.
@@ -77,7 +77,7 @@ ms.locfileid: "67268754"
 
 ### <a name="apps-and-custom-integrations"></a>Приложения и настраиваемые интеграции
 
-Приложения в Slack подобны приложениям в Teams. Если у вас есть список приложений и их конфигураций в рабочей области, вы можете поискать их в магазине приложений Teams и узнать, доступны ли они для Teams*. 
+Apps in Slack are like apps in Teams. Once you have a list of apps and their configurations in the Workspace, you can search in the Teams App store to see if they’re available for Teams*. 
 
 Список приложений и настраиваемых интеграций можно найти на странице \<your Slack workspace\>.slack.com/apps/manage. На этой странице также показано количество конфигураций, в которых используется каждое приложение. Настраиваемые интеграции различаются по возможностям переноса. Если это веб-перехватчик, обычно его можно отправить в соединитель Microsoft 365 или Office 365 для перевода рабочего процесса в Teams. Для ботов и других приложений возможность переноса в Teams оценивается в индивидуальном порядке.
 
@@ -193,11 +193,11 @@ Write-Host "`n $(Get-Timestamp) Generated SlackToAzureADIdentityMapping.csv. Exi
 Используя перечень каналов, составленный в предыдущем разделе "Планирование", совместно с владельцами и администраторами Slack выясните, какие каналы следует сделать группами, а какие — каналами в группе. Для проведения этого анализа используйте Excel или Power BI: обе эти программы могут предоставить дополнительную информацию для обсуждения каналов, которые следует сохранить.
 
 > [!TIP]
-> В настоящее время каждая команда в Teams может содержать не более 200 каналов. Если ваш список каналов приближается к этому пределу, попробуйте разделить его на две отдельные команды.
+> Teams currently has a 200-channel limit per team. If your list of channels is getting close to that limit, you should figure out a way to split them into two separate teams.
 
 ### <a name="channel-history"></a>Журнал каналов
 
-Для переноса журнала каналов можно использовать как бесплатные инструменты из GitHub, так и платные решения, в зависимости от требований вашей организации по сохранению журнала общедоступных и закрытых каналов. Кроме того, это можно реализовать в виде сценария в Teams.
+There are both free solutions on GitHub and paid solutions you can use, depending on your organization’s requirements to retain Channel History of Public and Private channels. Additionally, this could be scripted into Teams.
 
 Когда в Teams будет сформирована структура новых групп и каналов, можно будет скопировать экспортированные файлы в соответствующие библиотеки документов в каналах Teams.
 
@@ -205,7 +205,7 @@ Write-Host "`n $(Get-Timestamp) Generated SlackToAzureADIdentityMapping.csv. Exi
 
 ### <a name="channel-files"></a>Файлы каналов
 
-Большинство решений экспортируют файлы. Однако эти файлы обычно представлены в виде ссылок в журнале канала, и для их программного извлечения требуется ключ API.
+Most solutions will export files. However, they’re typically provided as links in the Channel History that require an API key to programmatically retrieve.
 
 Если файлы хранятся в Slack, после формирования групп и каналов в Teams можно программным путем скопировать их из Slack в целевой канал Teams.
 
@@ -340,7 +340,7 @@ Write-Host -ForegroundColor Green "$(Get-TimeStamp) Exiting.."
   - Ознакомьтесь с этим пользовательским решением для [отправки оповещений New Relic в Teams](https://discuss.newrelic.com/t/new-relic-alerts-not-working-with-microsoft-teams/48609/3)
 - Nagios
   - Оповещения можно интегрировать с помощью соединителей. https://github.com/isaac-galvan/nagios-teams-notify
-- ZenDesk
+- Zendesk
   - Приложение имеется в магазине приложений Teams
 - Jenkins
   - Оповещения можно отправлять в Teams, используя соединитель [Jenkins для Office 365](https://plugins.jenkins.io/Office-365-Connector)

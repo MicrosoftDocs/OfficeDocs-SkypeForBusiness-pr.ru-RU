@@ -23,12 +23,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: fab22ca4bda45f1f534055a5f43d64358dea8cec
-ms.sourcegitcommit: fcedb958bf555d870215ae84fb83752304944716
+ms.openlocfilehash: fb6e808b162736b5d3e682cf8ae00682b4334388
+ms.sourcegitcommit: baf29d244b428712052553f9e4484e72e727247e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/06/2022
-ms.locfileid: "68486599"
+ms.lasthandoff: 11/17/2022
+ms.locfileid: "69046758"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>Что такое трансляции Microsoft Teams
 
@@ -97,13 +97,12 @@ So, let's get started. First, take a look at the following diagram that shows hi
 
 ### <a name="enterprise-content-delivery-network-ecdn"></a>Корпоративная сеть доставки содержимого (eCDN)
 
-Целью eCDN является получение видеосодержимого из интернета и распространение содержимого по всей компании без воздействия на производительность сети. Можно использовать одного из следующих сертифицированных партнеров eCDN для оптимизации сети для проведения трансляций в вашей организации:
+Целью eCDN является получение видеосодержимого из интернета и распространение содержимого по всей компании без воздействия на производительность сети. Для оптимизации сети для трансляций, проводимых в вашей организации, вы можете использовать либо [стороннее решение eCDN корпорации Майкрософт](/ecdn) , либо одного из следующих сертифицированных партнеров eCDN:
 
 - [Hive](https://www.hivestreaming.com/partners/integration-partners/microsoft/)
 - [Kollective](https://kollective.com/ecdn-solutions/microsoft-live-events/)
 - [Ramp](https://rampecdn.com)
 - [Riverbed](https://www.riverbed.com/solutions/office-365.html)
-- [Peer5](https://www.peer5.com/)
 
 ### <a name="attendee-experience"></a>Взаимодействие с участниками
 
