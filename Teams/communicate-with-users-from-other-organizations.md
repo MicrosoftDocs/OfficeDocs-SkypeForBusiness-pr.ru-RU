@@ -7,6 +7,7 @@ ms.reviewer: vinbel, luises
 ms.topic: article
 ms.service: msteams
 audience: admin
+ms.custom: chat-teams-channels-revamp
 ms.collection:
 - Teams_ITAdmin_GuestAccess
 - M365-collaboration
@@ -18,12 +19,12 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
 description: Узнайте, как звонить, общаться в чатах и добавлять пользователей из-за пределов организации в Microsoft Teams с помощью внешнего доступа и гостевого доступа.
-ms.openlocfilehash: 14b1bee39caacc6465c64dbb2151cbeed936b3ff
-ms.sourcegitcommit: 0592f9d2696fe8c840a4ed3e7f99e55ca0c9c3e6
+ms.openlocfilehash: f416453a93c07945f9df55c863f76cbb8b736a78
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "67418468"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198321"
 ---
 # <a name="use-guest-access-and-external-access-to-collaborate-with-people-outside-your-organization"></a>Использование гостевого и внешнего доступа для совместной работы с людьми из-за пределов организации
 
@@ -44,16 +45,16 @@ ms.locfileid: "67418468"
 
 Внешний доступ предусмотрен для следующих клиентов.
 - Управляемые корпоративные учетные записи
-     - Только между коммерческими
+     - Между коммерческими только
      - Только между GCC
      - Только между GCC High
      - Только между DOD
 - Неуправляемые (личные) учетные записи
      - Только между коммерческими и личными учетными записями
-- Skype для бизнеса взаимодействия
-     - Между коммерческими, GCC, GCC High и DoD
-- Взаимодействие Skype
-     - Только между коммерческим приложением и Skype
+- взаимодействие Skype для бизнеса
+     - Между и между коммерческими, GCC, GCC High и DoD
+- Взаимодействие с Skype
+     - Только между коммерческими и Skype
 
 Сведения о настройке внешнего доступа см. в статье [Управление внешним доступом](manage-external-access.md). 
 
@@ -64,7 +65,7 @@ ms.locfileid: "67418468"
 
 Используйте гостевой доступ, чтобы добавить человека из-за пределов вашей организации в команду, где он сможет общаться, звонить, участвовать в собраниях и совместно работать над файлами. Гостю можно предоставлять практически все возможности Teams, доступные участнику команды. Дополнительные сведения см. в статье [Возможности гостя в Teams](guest-experience.md).
 
-Гости добавляются в Azure Active Directory вашей организации в качестве пользователей службы совместной работы B2B и должны войти в Teams с помощью своей гостевой учетной записи. Это означает, что им может потребоваться выйти из своей организации, чтобы войти в вашу организацию.
+Гости добавляются в Azure Active Directory вашей организации в качестве пользователей службы совместной работы B2B и должны войти в Teams с помощью гостевой учетной записи. Это означает, что им может потребоваться выйти из своей организации, чтобы войти в вашу организацию.
 
 Гостевой доступ предусмотрен для следующих клиентов.
 
@@ -116,7 +117,7 @@ ms.locfileid: "67418468"
 <sup>1</sup> Если пользователь добавлен в качестве гостя и вошел с помощью гостевой учетной записи.<br>
 <sup>2</sup> Только по электронной почте или по протоколу SIP.<br>
 <sup>3</sup> Поддерживается для приватных чатов только между пользователями Teams из разных организаций. <br>
-<sup>4</sup> По умолчанию внешние участники не видят номера телефонов участников с телефонным подключением. Если нужно обеспечить конфиденциальность этих телефонных номеров, выберите **Тональные сигналы** для пункта **Тип объявлений о входе/выходе** (это позволит предотвратить прочтение номеров приложением Teams). Дополнительные сведения см. в статье [Включение и отключение оповещений о входе на собрание и выходе из него в Microsoft Teams](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md).<br>
+<sup>4</sup> By default, external participants can't see the phone numbers of dialed-in participants. If you want to maintain the privacy of these phone numbers, select **Tones** for **Entry/exit announcement type** (this prevents the numbers from being read out by Teams). To learn more, read [Turn on or off entry and exit announcements for meetings in Microsoft Teams](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md). <br>
 <sup>5</sup> Разрешено по умолчанию, но может быть отключено администратором Teams.
 
 ## <a name="related-topics"></a>Статьи по теме

@@ -18,13 +18,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.deploymentadvisor.overview
+- chat-teams-channels-revamp
 description: Используйте помощника для Teams, чтобы спланировать и развернуть Microsoft Teams.
-ms.openlocfilehash: 795765459c7796449379fe4c8fb327140a19e9e2
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
-ms.translationtype: HT
+ms.openlocfilehash: e691a224679b8026ec91ecf3b1b5c16f6016c20e
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268824"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198331"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Использование помощника для Teams для развертывания Microsoft Teams
 
@@ -142,7 +143,7 @@ ms.locfileid: "67268824"
 >
 
 > [!IMPORTANT]
-> Бот Помощника для Teams используется только для отправки приветственного сообщения команде развертывания. Дополнительные данные не собираются.
+> Бот помощника для Teams используется только для отправления приветственного сообщения вашей команде развертывания. Дополнительные данные не собираются.
 
 > [!IMPORTANT]
 > Бот помощника для Teams включен по умолчанию. Не отключайте его, если вы используете или планируете использовать помощника для Teams.
@@ -212,7 +213,7 @@ ms.locfileid: "67268824"
 
 После настройки сайта и подготовки планов обучения рассмотрите способ ознакомления с ними ваших пользователей, чтобы подтолкнуть их к использованию схем обучения для постоянной учебы.
 
-Используйте каналы коммуникации для продвижения сайта и уведомления о нем. Например, включите в коммуникацию с пользователями стандартное уведомление "Ознакомьтесь с нашим сайтом обучения и поддержки с инструкциями по повышению производительности в Teams".
+Use your communication channels to promote the site and generate awareness. For example, include a standard tagline such as “Check out our training and support site for how to get productive with Teams” in communications to your users.
 
 Поддерживайте пользователей путем описания способов совместной работы в Teams и направляйте их прямо на сайт схем обучения с соответствующими инструкциями.
 
@@ -258,7 +259,7 @@ ms.locfileid: "67268824"
 
 ### <a name="can-i-use-advisor-for-teams-with-fasttrack"></a>Можно ли использовать помощника для Teams вместе с FastTrack
 
-Да. FastTrack использует Помощник для Teams для всех клиентов, желающих развернуть Teams. Предоставляется помощь в первоначальной настройке команды развертывания с использованием Помощника для Teams (если это необходимо), а также поддержка по определенным вопросам развертывания Teams при их возникновении.
+Yes, FastTrack leverages Advisor for Teams for all customers looking to deploy Teams. They can assist with the initial setup of your Deployment team using Advisor for Teams (if required) and also provide as-needed support on specific topics during your Teams rollout.
 
 ### <a name="can-i-use-advisor-for-teams-with-a-partner"></a>Можно ли использовать помощника для Teams вместе с партнером
 

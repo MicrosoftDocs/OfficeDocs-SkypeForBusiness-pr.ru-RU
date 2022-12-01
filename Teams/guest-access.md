@@ -11,7 +11,9 @@ search.appverid: MET150
 ms.localizationpriority: high
 f1.keywords:
 - CSH
-ms.custom: ms.teamsadmincenter.orgwidesettings.guestaccess.overview
+ms.custom:
+- ms.teamsadmincenter.orgwidesettings.guestaccess.overview
+- chat-teams-channels-revamp
 ms.collection:
 - Teams_ITAdmin_GuestAccess
 - M365-collaboration
@@ -19,12 +21,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Гостевой доступ в Microsoft Teams позволяет командам в вашей организации сотрудничать с людьми, находящимися за пределами организации, предоставляя им доступ к командам и каналам.
-ms.openlocfilehash: d7f850855ab131267b20bae07b015127777a21f4
-ms.sourcegitcommit: 9bee7cb9433bfc687387647a102f814dc52c8591
-ms.translationtype: HT
+ms.openlocfilehash: 399cd1c0aecb7377292810b26cd123873405f547
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "64839070"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198471"
 ---
 # <a name="guest-access-in-microsoft-teams"></a>Гостевой доступ в Microsoft Teams
 
@@ -35,16 +37,16 @@ ms.locfileid: "64839070"
 
 Гость — это пользователь, у которого нет учебной или рабочей учетной записи, предоставленной вашей организацией. Например, к гостям могут относиться партнеры, продавцы, поставщики или консультанты. Любого пользователя, не состоящего в вашей организации, можно добавить в качестве гостя в Teams. Это означает, что любой пользователь с корпоративной учетной записью (т. е. учетной записью Azure Active Directory) или потребительской учетной записью электронной почты (Outlook.com, Gmail.com или других служб) может участвовать в Teams в качестве гостя с доступом к возможностям команд и каналов.
 
-Когда вы приглашаете гостя в Teams, для него создается гостевая учетная запись в Azure Active Directory, и на него распространяется та же защита в области соответствия требованиям и аудита, что и на прочих пользователей Microsoft 365. При гостевом доступе действуют ограничения служб Azure AD и Microsoft 365.
+When you invite a guest to Teams, a guest account is created for them in Azure Active Directory and they are covered by the same compliance and auditing protection as other Microsoft 365 users. Guest access is subject to Azure AD and Microsoft 365 service limits.
 
-Гостевое взаимодействие предусматривает ограничения. Полный список возможностей, доступных и недоступных для гостей в Teams, см. в статье [Гостевой доступ в Microsoft Teams](guest-experience.md).
+The guest experience has limitations by design. For a full list of what a guest can and can't do in Teams, see [Guest access in Microsoft Teams](guest-experience.md).
 
 > [!IMPORTANT]
-> Гости используют параметры Teams на уровне организации в режиме обновления сосуществования. Изменить их невозможно.
+> Guests follow Teams Org-wide settings for the coexistence Upgrade mode. This can't be changed.
 
 Чтобы сравнить внешний доступ (федерацию) с гостевым доступом (и выбрать нужный), ознакомьтесь со статьей [Общение с пользователями из других организаций в Teams](communicate-with-users-from-other-organizations.md).
 
-Общие каналы представляют собой альтернативу гостевому доступу, позволяя приглашать пользователей из-за пределов вашей организации без обязательного создания гостевой учетной записи в Azure AD. Чтобы сравнить гостевой доступ с общими каналами, ознакомьтесь со статьей [Планирование внешней совместной работы](/microsoft-365/solutions/plan-external-collaboration).
+Shared channels offer an alternative to guest access, allowing you to invite people outside your organization without requiring a guest account in Azure AD. To compare guest access with shared channels, see [Plan external collaboration](/microsoft-365/solutions/plan-external-collaboration).
 
 Чтобы настроить гостевой доступ, ознакомьтесь со статьей [Совместная работа с гостями в команде](/microsoft-365/solutions/collaborate-as-team). 
 

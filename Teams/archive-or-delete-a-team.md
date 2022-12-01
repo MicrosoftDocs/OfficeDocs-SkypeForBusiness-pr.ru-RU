@@ -8,23 +8,24 @@ audience: admin
 ms.service: msteams
 ms.reviewer: jastark
 search.appverid: MET150
-description: В этой статье вы узнаете, как архивировать или окончательно удалить команду в Microsoft Teams.
+description: В этой статье вы узнаете, как архивировать или окончательно удалить команду в Майкрософт Teams.
 ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - NewAdminCenter_Update
 - seo-marvel-apr2020
+- chat-teams-channels-revamp
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e9178bb793f25d9c052041432c20af4be8fb4033
-ms.sourcegitcommit: 57616ad45eaa8be7f78dd0126d324c8777c5a367
+ms.openlocfilehash: 79a9472286a7e08e8c6dce4c4f40d76b7e4f2b4e
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2022
-ms.locfileid: "68792788"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198971"
 ---
 # <a name="archive-or-delete-a-team-in-microsoft-teams"></a>Архивировать или удалять команды в Microsoft Teams
 
@@ -69,9 +70,9 @@ ms.locfileid: "68792788"
 
 ## <a name="restore-a-deleted-team"></a>Восстановить удаленную команду
 
-Выполните следующие действия, чтобы восстановить удаленную команду, восстановив группу Microsoft 365, связанную с ней. При восстановлении группы Microsoft 365 для команды восстанавливается содержимое группы, включая вкладки, стандартные каналы и частные каналы, а также связанные с ними семейства веб-сайтов.
+Выполните следующие действия, чтобы восстановить удаленную команду, восстановив группу Майкрософт 365, связанную с ней. Восстановление группы Майкрософт 365 для команды восстанавливает содержимое команды, включая вкладки, стандартные каналы и частные каналы, а также связанные с ними семейства веб-сайтов.
 
-По умолчанию удаленная группа Microsoft 365 хранится в течение 30 дней. Этот 30-дневный период называется «мягким удалением», потому что вы можете восстановить группу. Дополнительные сведения см. в статье [Восстановление удаленной группы](/microsoft-365/admin/create-groups/restore-deleted-group).
+По умолчанию удаленная группа Майкрософт 365 хранится в течение 30 дней. Этот 30-дневный период называется «мягким удалением», потому что вы можете восстановить группу. Дополнительные сведения см. в статье [Восстановление удаленной группы](/microsoft-365/admin/create-groups/restore-deleted-group).
 
 ### <a name="install-the-azureadpreview-module"></a>Установите модуль AzureADPreview
 
@@ -92,7 +93,7 @@ ms.locfileid: "68792788"
     Install-Module AzureADPreview
     ```
 
-### <a name="restore-the-deleted-microsoft-365-group"></a>Восстановление удаленной группы Microsoft 365
+### <a name="restore-the-deleted-microsoft-365-group"></a>Восстановление удаленной группы Майкрософт 365
 
 1. Подключитесь к Azure AD, выполнив следующее:
 
@@ -102,7 +103,7 @@ ms.locfileid: "68792788"
 
     При появлении запроса войдите в систему, используя свою учетную запись администратора и пароль.
 
-1. Выполните следующую команду, чтобы отобразить список всех обратимо удаленных групп Microsoft 365, которые по-прежнему находятся в течение 30-дневного срока хранения. Если у вас много групп, **используйте параметр -All $True** .
+1. Выполните следующую команду, чтобы отобразить список всех обратимо удаленных Майкрософт 365 групп, которые по-прежнему находятся в течение 30-дневного срока хранения. Если у вас много групп, **используйте параметр -All $True** .
 
     ```PowerShell
     Get-AzureADMSDeletedGroup

@@ -1,5 +1,5 @@
 ---
-title: Отключение собственной политики отправки файлов Teams
+title: Отключение политики отправки собственных файлов Teams
 author: danieasmith
 ms.author: danismith
 manager: serdars
@@ -12,53 +12,54 @@ audience: admin
 ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
+ms.custom: chat-teams-channels-revamp
 ms.collection:
 - M365-collaboration
-ms.openlocfilehash: 1993371099d0712d21106987f21575e85e181ad7
-ms.sourcegitcommit: 173bdbaea41893d39a951d79d050526b897044d5
+ms.openlocfilehash: 6c7d5c89c780fa5c9286f5d7f7d2304f2e6c6220
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2022
-ms.locfileid: "67268931"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198531"
 ---
-# <a name="turn-off-teams-native-file-upload-policy"></a>Отключение собственной политики отправки файлов Teams
+# <a name="turn-off-teams-native-file-upload-policy"></a>Отключение политики отправки собственных файлов Teams
 
-Microsoft Teams использует OneDrive и SharePoint для хранения и совместного использования содержимого, но некоторые организации и пользователи могут использовать сторонних поставщиков хранилищ.  
+Майкрософт Teams использует OneDrive и SharePoint для хранения и совместного использования содержимого, но некоторые организации и пользователи могут предпочесть использовать сторонних поставщиков хранилища.  
 
-Если ваша организация выбирает стороннего поставщика для хранения содержимого, `NativeFileEntryPoints` необходимо отключить параметр в политике файлов Teams. Этот параметр включен по умолчанию, который показывает возможность передачи содержимого из OneDrive или SharePoint в чаты или каналы Teams.
+Если ваша организация выбирает стороннюю сторону для хранения содержимого, необходимо отключить `NativeFileEntryPoints` параметр в политике файлов Teams. Этот параметр включен по умолчанию, который показывает возможность отправки содержимого из OneDrive или SharePoint в чаты или каналы Teams.
 
-Эта статья поможет вам создать, задать, назначить и удалить параметр `NativeFileEntryPoints` с помощью PowerShell.
+Эта статья поможет вам создать, задать, назначить и удалить `NativeFileEntryPoints` параметр с помощью PowerShell.
 
 >[!NOTE]
->Если политика файлов Teams отключена, пользователи не будут видеть точки доступа для OneDrive и SharePoint в Teams, но создание новых команд и каналов будет активировать создание соответствующих библиотек SharePoint.
+>Если политика файлов Teams отключена, пользователи не будут видеть точки доступа для OneDrive и SharePoint в Teams, но создание новых команд и каналов будет по-прежнему активировать создание соответствующих библиотек SharePoint.
 
 ## <a name="prepare-to-update-the-teams-files-policy"></a>Подготовка к обновлению политики файлов Teams
 
-### <a name="set-up-microsoft-powershell"></a>Настройка Microsoft PowerShell
+### <a name="set-up-microsoft-powershell"></a>Настройка Майкрософт PowerShell
 
-В настоящее время эту политику нельзя изменить в Центре администрирования Teams. Администратору клиента Microsoft 365 вашей организации придется внести изменения с помощью командлетов PowerShell, описанных далее в этой статье.
+В настоящее время эту политику нельзя изменить в Центре администрирования Teams. Администратору клиента Майкрософт 365 вашей организации придется внести изменения с помощью командлетов PowerShell, описанных далее в этой статье.
 
-Узнайте, как установить модуль PowerShell Teams с коллекция PowerShell, прочитав статью ["Установка модуля Microsoft Teams PowerShell"](teams-powershell-install.md).
+Узнайте, как установить модуль PowerShell Teams с помощью коллекция PowerShell, из статьи [Установка модуля PowerShell Майкрософт Teams](teams-powershell-install.md).
 
-Сведения об установке или скачии модуля Teams PowerShell [см. коллекция PowerShell microsoft Teams](https://www.powershellgallery.com/packages/MicrosoftTeams/3.0.0).
+Сведения об установке или скачивании модуля Teams PowerShell см. в статье [коллекция PowerShell для Майкрософт Teams](https://www.powershellgallery.com/packages/MicrosoftTeams/3.0.0).
 
-Дополнительные сведения о настройке PowerShell для управления Teams см. в разделе ["Управление Teams с помощью Microsoft Teams PowerShell"](teams-powershell-managing-teams.md).
+Дополнительные сведения о настройке PowerShell для управления Teams см. в статье [Управление Teams с помощью PowerShell Майкрософт Teams](teams-powershell-managing-teams.md).
 
 ### <a name="allow-third-party-apps-in-teams-admin-center"></a>Разрешить сторонние приложения в Teams Администратор Center
 
-Этот шаг не требуется для изменения политики файлов Teams, но он необходим, когда вы будете готовы интегрировать стороннего поставщика хранилища в интерфейс Teams пользователей.
+Этот шаг не требуется для изменения политики файлов Teams, но он необходим, когда вы готовы интегрировать стороннего поставщика хранилища в интерфейс Teams пользователей.
 
-Администратору клиента Microsoft 365 потребуется включить политику "Разрешить сторонние приложения" в Центре администрирования Teams.
+Администратору клиента Майкрософт 365 потребуется включить политику "Разрешить сторонние приложения" в Центре администрирования Teams.
 
-Сведения о том, как разрешить сторонние или пользовательские приложения, см. в статье "Управление параметрами приложений на уровне организации" в разделе "Управление приложениями" в [Центре администрирования Microsoft Teams](/microsoftteams/manage-apps#manage-org-wide-app-settings).
+Сведения о том, как разрешить сторонние или пользовательские приложения, см. в статье Управление параметрами приложений для всей организации [статьи Управление приложениями в Центре администрирования Майкрософт Teams](/microsoftteams/manage-apps#manage-org-wide-app-settings).
 
 ## <a name="turn-off-nativefileentrypoints-for-your-entire-tenant"></a>Отключение NativeFileEntryPoints для всего клиента
 
-Настройка параметра `-Identity` будет `Global` применять параметры политики ко всем пользователям в организации.
+Если параметру присвоено `-Identity` значение , `Global` параметры политики будут применены ко всем пользователям в организации.
 
 ### <a name="sample-powershell-policy-cmdlet-for-entire-tenant"></a>Пример командлета политики PowerShell для всего клиента
 
-В этом примере команды PowerShell будет задано`NativeFileEntryPoints` значение параметра `Disabled` для всего клиента.
+Этот пример команды PowerShell установит`NativeFileEntryPoints` для параметра значение `Disabled` для всего клиента.
 
 ```powershell
 Set-CsTeamsFilesPolicy -Identity Global -NativeFileEntryPoints Disabled
@@ -66,7 +67,7 @@ Set-CsTeamsFilesPolicy -Identity Global -NativeFileEntryPoints Disabled
 
 ### <a name="check-the-status-of-your-tenant"></a>Проверка состояния клиента  
 
-Чтобы просмотреть текущее состояние политики файлов Teams клиента, используйте `Get-CsTeamsFilesPolicy` командлет.
+Чтобы просмотреть текущее состояние политики файлов Teams клиента, используйте `Get-CsTeamsFilesPolicy` командлет .
 
 ```powershell
 Get-CsTeamsFilesPolicy -Identity Global
@@ -74,7 +75,7 @@ Get-CsTeamsFilesPolicy -Identity Global
 
 ### <a name="turn-on-or-turn-off-native-file-upload-point"></a>Включение или отключение собственной точки отправки файлов
 
-Чтобы включить или отключить собственную точку отправки файлов для всего клиента, `NativeFileEntryPoints` задайте для параметра значение либо `Disabled``Enabled` .
+Чтобы включить или отключить собственную точку отправки файлов для всего клиента, задайте для `NativeFileEntryPoints` параметра значение `Enabled` или `Disabled`.
 
 ```powershell
 Set-CsTeamsFilesPolicy -Identity Global -NativeFileEntryPoints Enabled
@@ -86,7 +87,7 @@ Set-CsTeamsFilesPolicy -Identity Global -NativeFileEntryPoints Disabled
 
 ### <a name="remove-the-policy-for-your-users"></a>Удаление политики для пользователей
 
-Чтобы удалить политику файлов Teams для пользователей, используйте `Remove-CsTeamsFilesPolicy` командлет.
+Чтобы удалить политику файлов Teams для пользователей, используйте `Remove-CsTeamsFilesPolicy` командлет .
 
 ```powershell
 Remove-CsTeamsFilesPolicy -Identity Global
@@ -94,13 +95,13 @@ Remove-CsTeamsFilesPolicy -Identity Global
 
 ## <a name="turn-off-nativefileentrypoints-for-specific-users"></a>Отключение NativeFileEntryPoints для определенных пользователей
 
-Вы также можете обновить политику файлов Teams для определенных пользователей, создав новую строку политики файлов Teams `-Identity` и назначив только что созданную политику пользователям.
+Вы также можете обновить политику файлов Teams для определенных пользователей, создав новую строку политики `-Identity` файлов Teams и назначив только что созданную политику пользователям.
 
 ### <a name="sample-powershell-policy-cmdlet-for-specific-users"></a>Пример командлета политики PowerShell для определенных пользователей
 
-В этом примере команды PowerShell будет создаваться `CsTeamsFilesPolicy` `-Identity` новая команда с именем и `UserPolicy` параметром `NativeFileEntryPoints` , для параметра установлено значение `Disabled`.
+Этот пример команды PowerShell создаст новый объект с именем как `UserPolicy` и параметром `NativeFileEntryPoints` `Disabled`.`-Identity` `CsTeamsFilesPolicy`
 
-Если пользователю назначено значение `CsTeamsFilesPolicy` with `-Identity UserPolicy`, его собственные точки входа в файл будут отключены.
+Если пользователю назначается с `-Identity UserPolicy`, его собственные `CsTeamsFilesPolicy` точки входа в файл будут отключены.
 
 ```powershell
 New-CsTeamsFilesPolicy -Identity UserPolicy -NativeFileEntryPoints Disabled
@@ -116,7 +117,7 @@ Grant-CsTeamsFilesPolicy  -identity "user email id" -PolicyName UserPolicy
 
 ### <a name="update-the-policy"></a>Обновление политики
 
-Если необходимо изменить параметр новой политики файлов Teams `UserPolicy`, используйте `Set-CsTeamsFilePolicy` командлет.
+Если необходимо изменить параметр новой политики `UserPolicy`файлов Teams , используйте `Set-CsTeamsFilePolicy` командлет .
 
 ```powershell
 Set-CsTeamsFilesPolicy -Identity UserPolicy -NativeFileEntryPoints Enabled
@@ -124,7 +125,7 @@ Set-CsTeamsFilesPolicy -Identity UserPolicy -NativeFileEntryPoints Enabled
 
 ### <a name="remove-the-policy-for-the-complete-list-of-users"></a>Удаление политики для полного списка пользователей
 
-Чтобы удалить политику из всех пользователей, назначенных политике файлов Teams `UserPolicy`, используйте `Remove-CsTeamsFilesPolicy` командлет.
+Чтобы удалить политику для всех пользователей, назначенных политике `UserPolicy`файлов Teams , используйте `Remove-CsTeamsFilesPolicy` командлет .
 
 ```powershell
 Remove-CsTeamsFilesPolicy -Identity UserPolicy

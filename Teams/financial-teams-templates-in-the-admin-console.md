@@ -17,14 +17,15 @@ f1.keywords:
 ms.custom:
 - NewAdminCenter_Update
 - seo-marvel-apr2020
+- chat-teams-channels-revamp
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 51ec855bc9065bb65c0f6eae14a3e41683cfbc6f
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
-ms.translationtype: HT
+ms.openlocfilehash: 096bab4289d5ac9e81c63f83cd73efd41d98e7be
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60046135"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198693"
 ---
 # <a name="use-financial-team-templates"></a>Использование шаблонов финансовых команд
 
@@ -38,7 +39,7 @@ ms.locfileid: "60046135"
 
 |Если вы: | Вы можете: |
 | ---- | --------- |
-| Администратор или ИТ-специалист |[Управлять шаблонами команд в Центре администрирования Teams](#manage-team-templates-in-the-teams-admin-center). Просматривайте шаблоны команд и применяйте политики шаблонов для управления тем, какие шаблоны сотрудники могут использовать в Teams для создания команд. |
+| Администратор или ИТ-специалист |[Manage team templates in the Teams admin center](#manage-team-templates-in-the-teams-admin-center). View team templates and apply templates policies to control which templates your staff can use in Teams for creating teams. |
 | Разработчик | [Использовать Microsoft Graph](#use-team-templates-with-microsoft-graph) для создания команд из шаблонов. |
 
 ## <a name="manage-team-templates-in-the-teams-admin-center"></a>Управление шаблонами команд в Центре администрирования Teams
@@ -55,12 +56,12 @@ ms.locfileid: "60046135"
 
 | Тип шаблона |TemplateId| Свойства этого шаблона |
 | ------------------ |--|----------------------------------------------------- |
-|Банковский филиал| `CollaborateWithinABankBranch`|Каналы: <ul><li>Общие<li>Объявления</li><li>Совещания</li><li>Встречи с клиентами</li><li>Запрос на утверждение </li><li>Обучение</li><li>Развитие навыков</li><li>Обработка кредитных заявок</li><li>Жалобы клиентов</li><li>Поздравления</li><li>Развлечения</li><li>Соответствие требованиям</li></ul>Приложения:<ul><li>Благодарность </li><li>Сообщающий о проблеме</li><li>Вики</li><li>Календарь</li><li>Утверждения</li><li>Бюллетени</li><li>Идеи</li></ul>|
+|Банковский филиал| `CollaborateWithinABankBranch`|Каналы: <ul><li>Общий<li>Объявления</li><li>Совещания</li><li>Встречи с клиентами</li><li>Запрос на утверждение </li><li>Обучение</li><li>Развитие навыков</li><li>Обработка кредитных заявок</li><li>Жалобы клиентов</li><li>Поздравления</li><li>Развлечения</li><li>Соответствие требованиям</li></ul>Приложения:<ul><li>Благодарность </li><li>Сообщающий о проблеме</li><li>Вики</li><li>Календарь</li><li>Утверждения</li><li>Бюллетени</li><li>Идеи</li></ul>|
 ||||
 
 ## <a name="use-team-templates-with-microsoft-graph"></a>Использование шаблонов команд с помощью Microsoft Graph
 
-Разработчики могут использовать Microsoft Graph для создания команд из готовых шаблонов. Дополнительные сведения об использовании шаблонов команд с помощью Microsoft Graph см. в статье [Начало работы с шаблонами команд с помощью Microsoft Graph](get-started-with-teams-templates.md), [Обзор API Microsoft Teams](/graph/teams-concept-overview?view=graph-rest-1.0) и [Тип ресурса teamsTemplate](/graph/api/resources/teamstemplate?view=graph-rest-1.0).
+Developers can use Microsoft Graph to create teams from pre-built team templates. To learn more about using team templates with Microsoft Graph, see [Get started with team templates using Microsoft Graph](get-started-with-teams-templates.md), [Microsoft Teams API overview](/graph/teams-concept-overview?view=graph-rest-1.0&preserve-view=true), and [teamsTemplate resource type](/graph/api/resources/teamstemplate?view=graph-rest-1.0&preserve-view=true).
 
 ### <a name="bank-branch"></a>Банковский филиал
 

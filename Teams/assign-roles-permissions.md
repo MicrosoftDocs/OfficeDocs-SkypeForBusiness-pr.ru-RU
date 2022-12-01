@@ -1,5 +1,5 @@
 ---
-title: Назначение владельцев и участников команды в Центре администрирования Microsoft Teams
+title: Назначение владельцев и участников команды в Центре администрирования Майкрософт Teams
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -12,23 +12,24 @@ description: Сведения о назначении разрешений и р
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
+ms.custom: chat-teams-channels-revamp
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e0f259a7a24552988d4eca503deeb9151dde144d
-ms.sourcegitcommit: 0760416ee0bead3ada93f4d37f8aebc74222bd3c
+ms.openlocfilehash: b25a5d654e4bd7a807918aa86e0bfd52aff2ca04
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2022
-ms.locfileid: "69019415"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198761"
 ---
-# <a name="assign-team-owners-and-members-in-microsoft-teams-admin-center"></a>Назначение владельцев и участников команды в Центре администрирования Microsoft Teams
+# <a name="assign-team-owners-and-members-in-microsoft-teams-admin-center"></a>Назначение владельцев и участников команды в Центре администрирования Майкрософт Teams
 
-**Владелец** и **участник** — это две роли пользователя в Microsoft Teams. Пользователю, создавшему новую команду, по умолчанию предоставляется статус владельца. Владельцы и участники имеют различные типы разрешений и возможностей при взаимодействии с командой и ее каналами. Дополнительные сведения о [ролях в Teams см. в статье Обзор команд и каналов в Microsoft Teams](teams-channels-overview.md) .
+**Владелец** и **участник** — это две роли пользователей в Майкрософт Teams. Пользователю, создавшему новую команду, по умолчанию предоставляется статус владельца. Владельцы и участники имеют различные типы разрешений и возможностей при взаимодействии с командой и ее каналами. Дополнительные сведения о [ролях в Teams см. в статье Обзор команд и каналов в Майкрософт Teams](teams-channels-overview.md).
 
 > [!NOTE]
-> Если команда создается из существующей группы Microsoft 365, разрешения наследуются.
+> Если команда создается из существующей группы Майкрософт 365, разрешения наследуются.
 
 ## <a name="assign-a-user-role-in-teams-admin-center"></a>Назначение роли пользователя в Центре администрирования Teams
 
@@ -38,7 +39,7 @@ ms.locfileid: "69019415"
 
 ## <a name="restrict-permission-to-create-teams"></a>Ограничение разрешений на создание команд
 
-Все пользователи с почтовым ящиком в Exchange Online имеют разрешения на создание групп Microsoft 365 и команды в Microsoft Teams. Ограничьте пользователям возможность создавать новые команды и группы Microsoft 365, делегируя права на создание групп и управление ими набору пользователей. Если это ограничение активно, ни владельцы, ни участники команды не могут создавать новые команды. Дополнительные сведения см. в статье [Управление разрешениями пользователей на создание групп Microsoft 365](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618).
+Все пользователи с почтовым ящиком в Exchange Online имеют разрешения на создание Майкрософт 365 групп и команды в Майкрософт Teams. Ограничьте пользователям возможность создавать новые команды и Майкрософт 365 групп, делегируя права на создание групп и управление ими набору пользователей. Если это ограничение активно, ни владельцы, ни участники команды не могут создавать новые команды. Дополнительные сведения см. в статье [Управление разрешениями пользователей на создание групп Microsoft 365](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618).
 
 ## <a name="user-permissions-based-on-assigned-roles"></a>Разрешения пользователей на основе назначенных ролей
 

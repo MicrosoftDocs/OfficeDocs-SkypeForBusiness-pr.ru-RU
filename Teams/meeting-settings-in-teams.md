@@ -23,12 +23,12 @@ ms.collection:
 - m365initiative-meetings
 - highpri
 description: Узнайте, как управлять настройками собраний команд, которые пользователи планируют в своей организации.
-ms.openlocfilehash: 3faff1779830539470ae3d04cc73e58da65a637c
-ms.sourcegitcommit: cbcf37f395832bed871fe709b87c6eecb1fdfd72
+ms.openlocfilehash: e5cacfb81cf3bf1ef768051d2094b0a70af93927
+ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/16/2022
-ms.locfileid: "68583880"
+ms.lasthandoff: 11/30/2022
+ms.locfileid: "69198341"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Управление настройками собраний в Microsoft Teams
 
@@ -55,7 +55,7 @@ ms.locfileid: "68583880"
 
     ![Скриншот настроек участников для встреч в центре администрирования.](media/meeting-settings-participants.png "Снимок экрана настроек участников для собраний Teams в административном центре Microsoft Teams")
 
-> [!CAUTION]
+> [!Important]
 > Если вы не хотите, чтобы анонимные пользователи присоединялись к собраниям, запланированным пользователями в вашей организации, отключите этот параметр.
 
 ### <a name="using-powershell-to-configure-per-organizer-policy"></a>Настройка политики для каждого организатора с помощью PowerShell
@@ -99,7 +99,7 @@ ms.locfileid: "68583880"
 
 3. В разделе **Участники** можно изменить параметр **Анонимные пользователи могут взаимодействовать с приложениями на собраниях**.
 
-> [!CAUTION]
+> [!Important]
 > Если вы не хотите, чтобы анонимные пользователи взаимодействовали с приложениями на собраниях, запланированных пользователями в вашей организации, отключите этот параметр.
 
 ## <a name="customize-meeting-invitations"></a>Настройка приглашений на собрания
