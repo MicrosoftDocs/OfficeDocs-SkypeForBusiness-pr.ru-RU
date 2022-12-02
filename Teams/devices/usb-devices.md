@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: Узнайте, какие периферийные устройства и устройства USB (например, гарнитуры, динамики, веб-камеры и мониторы) сертифицированы для Майкрософт Teams.
-ms.openlocfilehash: dcee4b84795ad825ccbd81ef30f3f44b745cfb82
-ms.sourcegitcommit: ed7d3b12d4bfe48863de873360c2ae90bbb15530
+ms.openlocfilehash: 8a767eb2572012496dc5dba94e989f969f12df27
+ms.sourcegitcommit: aef1ab47fb9cb4502cb49bc3c7ffafcd62e54c82
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/30/2022
-ms.locfileid: "69194940"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "69242313"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Аудио- и видеоустройства USB сертифицированы для Майкрософт Teams
 
@@ -81,7 +81,7 @@ ms.locfileid: "69194940"
 
 ## <a name="certified-devices"></a>Сертифицированные устройства
 
-*Таблица обновлена за октябрь 2022 г.*
+*Таблица обновлена за ноябрь 2022 г.*
 
 > [!NOTE]
 > Формат даты — ММ/ДД/ГГГГ.
@@ -93,7 +93,7 @@ ms.locfileid: "69194940"
 |Cisco                |Настольной камеры 4K                                             |10/15/2022      |Сертифицировано для Майкрософт Teams                           |
 |ЭПОС                 |EXPAND Vision 1/S6                                         |10/13/2022      |Сертифицировано для Майкрософт Teams                           |
 |Lenovo               |Go USB-C ANC In-Ear Headphones                             |9/20/2022       |Сертифицировано для Майкрософт Teams                           |
-|Logi                 |Brio 500/505 Камеры                                       |9/14/2022       |Сертифицировано для Майкрософт Teams                           |
+|Logi                 |Brio 500/505/501 Камеры                                   |9/14/2022       |Сертифицировано для Майкрософт Teams                           |
 |Jabra                |Привлечение 50 II                                               |7/29/2022       |Сертифицировано для Майкрософт Teams                           |
 |Jabra                |Привлечение 40 II                                               |7/29/2022       |Сертифицировано для Майкрософт Teams                           |
 |Logi                 |Закрепление динамиков                                          |7/13/2022       |Сертифицировано для Майкрософт Teams                           |

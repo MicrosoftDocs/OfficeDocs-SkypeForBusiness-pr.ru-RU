@@ -1,7 +1,7 @@
 ---
-title: Маскирование номеров телефонов в собраниях Microsoft Teams
+title: Маскировка номеров телефонов в собраниях Майкрософт Teams
 author: heidip
-ms.author: MicrosoftHeidi
+ms.author: heidip
 manager: serdars
 ms.reviewer: moakram
 ms.topic: article
@@ -16,15 +16,15 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Узнайте, как маскировать телефонные номера в собраниях Microsoft Teams
-ms.openlocfilehash: cad28ad446c39a45b865fd24767347fdf11bb9c8
-ms.sourcegitcommit: ab8f8e101e41774668b5e607fa72442105ca796e
+description: Узнайте, как маскировать телефонные номера в собраниях Майкрософт Teams
+ms.openlocfilehash: 7072d1853a49d9e7ebc59e360c971874ed6549a3
+ms.sourcegitcommit: aef1ab47fb9cb4502cb49bc3c7ffafcd62e54c82
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/01/2022
-ms.locfileid: "68801770"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "69242273"
 ---
-# <a name="mask-phone-numbers-in-microsoft-teams-meetings"></a>Маскирование номеров телефонов в собраниях Microsoft Teams
+# <a name="mask-phone-numbers-in-microsoft-teams-meetings"></a>Маскировка номеров телефонов в собраниях Майкрософт Teams
 
 Для обеспечения конфиденциальности номера телефонов участников, которые входят в собрание Teams с помощью аудиоконференций, полностью отображаются для внутренних участников. Номера маскируются от участников за пределами вашей организации. Этот параметр используется по умолчанию для всех организаций. Замаскированное число отображается, как показано на следующем рисунке:
 
@@ -46,9 +46,9 @@ ms.locfileid: "68801770"
 - Всем участникам собрания
 - Отключено
 
-## <a name="use-microsoft-powershell-to-set-phone-number-masking"></a>Использование Microsoft PowerShell для настройки маскировки номера телефона
+## <a name="use-microsoft-powershell-to-set-phone-number-masking"></a>Использование Майкрософт PowerShell для настройки маскировки номера телефона
 
-Чтобы изменить параметр маскирования ТСОП в PowerShell, задайте **`MaskPstnNumbersType`** для параметра [командлета Set-CsOnlineDialInConferencingTenantSettings один из доступных](/powershell/module/skype/set-csonlinedialinconferencingtenantsettings?view=skype-ps) параметров.
+Чтобы изменить параметр маскирования ТСОП в PowerShell, задайте **`MaskPstnNumbersType`** для параметра [командлета Set-CsOnlineDialInConferencingTenantSettings один из доступных](/powershell/module/skype/set-csonlinedialinconferencingtenantsettings) параметров.
 
 Чтобы скрыть номера телефонов только от внешних участников, выполните следующую команду:
 

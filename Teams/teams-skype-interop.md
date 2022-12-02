@@ -13,12 +13,12 @@ ms.reviewer: vinbel
 search.appverid: MET150
 description: Узнайте о возможностях взаимодействия между пользователями Teams в вашей организации и пользователями Skype (потребителей).
 ms.localizationpriority: medium
-ms.openlocfilehash: e8f6d102a3b66d5140473d0f2ab11b5af97fc78f
-ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
+ms.openlocfilehash: 5cbb4bdf492de67131c75c97685317ef8cae866c
+ms.sourcegitcommit: aef1ab47fb9cb4502cb49bc3c7ffafcd62e54c82
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/30/2022
-ms.locfileid: "69198681"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "69242323"
 ---
 # <a name="teams-and-skype-interoperability"></a>Взаимодействие с Teams и Skype
 
@@ -87,7 +87,7 @@ ms.locfileid: "69198681"
 
 ### <a name="in-the-microsoft-teams-admin-center"></a>В центре администрирования Microsoft Teams 
 
-В Центре администрирования Майкрософт Teams перейдите в раздел **Пользователи** > **Внешний доступ**, а затем включите **параметр Пользователи могут взаимодействовать с пользователями Skype**. Пошаговые инструкции по настройке этого и других параметров внешнего доступа см. [в статье Управление внешним доступом в Teams](./manage-external-access.md#allow-or-block-domains).
+В Центре администрирования Майкрософт Teams перейдите в раздел **Пользователи** > **Внешний доступ**, а затем включите **параметр Пользователи могут взаимодействовать с пользователями Skype**. Пошаговые инструкции по настройке этого и других параметров внешнего доступа см. [в статье Управление внешним доступом в Teams](./manage-external-access.md).
 
 ### <a name="using-powershell"></a>С помощью PowerShell
 
