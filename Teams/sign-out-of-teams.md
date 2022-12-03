@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 810e4a2c151284786092d664170388f17c0461e6
-ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
-ms.translationtype: HT
+ms.openlocfilehash: 93a338ef393c783c4fc2240b580f3cd316c354ee
+ms.sourcegitcommit: 54c691bd34980a47a5ebf58555529a618a8cada7
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66564117"
+ms.lasthandoff: 12/03/2022
+ms.locfileid: "69251892"
 ---
 # <a name="sign-out-of-microsoft-teams"></a>Выход из Microsoft Teams
 
@@ -50,7 +50,7 @@ ms.locfileid: "66564117"
 
 ## <a name="sign-out-of-teams-on-mobile-devices"></a>Выход из Teams на мобильных устройствах
 
-На мобильном устройстве вы можете выйти из Teams, выбрав меню **Еще** и нажав **Выйти**. После выхода вам потребуется повторно ввести свои учетные данные при следующем запуске приложения.
+На мобильных устройствах вы можете выйти из Teams, перейдя к значку пользователя, выбрав **Параметры**, а затем выбрав **Выйти**. После выхода из нее необходимо повторно ввести свои учетные данные при следующем запуске приложения.
 
 ### <a name="global-sign-in-and-sign-out-for-frontline-workers"></a>Глобальный вход и выход для рядовых сотрудников
 

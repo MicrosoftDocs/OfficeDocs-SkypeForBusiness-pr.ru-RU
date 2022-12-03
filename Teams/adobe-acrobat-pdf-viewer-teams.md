@@ -18,16 +18,16 @@ description: Узнайте, как настроить Adobe Acrobat в каче
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 44721429b81b3f502a76a037add7a880e469add5
-ms.sourcegitcommit: ed7d3b12d4bfe48863de873360c2ae90bbb15530
+ms.openlocfilehash: 4776b2928ee734c1b37856e44d184c53bfc0dd90
+ms.sourcegitcommit: 54c691bd34980a47a5ebf58555529a618a8cada7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/30/2022
-ms.locfileid: "69194990"
+ms.lasthandoff: 12/03/2022
+ms.locfileid: "69251902"
 ---
 # <a name="set-adobe-acrobat-as-the-default-pdf-viewer-in-microsoft-teams"></a>Установка Adobe Acrobat в качестве средства просмотра PDF-файлов по умолчанию в Майкрософт Teams
 
-Администратор может настроить Adobe Acrobat в качестве приложения по умолчанию для просмотра и редактирования PDF-файлов в Microsoft Teams. Ваши конечные пользователи могут просматривать, искать, комментировать и аннотировать PDF-файлы без подписки Adobe Acrobat или Adobe ID.
+Администратор может настроить Adobe Acrobat в качестве приложения по умолчанию для просмотра и редактирования PDF-файлов в Microsoft Teams. Конечные пользователи могут просматривать PDF-файлы и выполнять поиск в ней. Пользователи также могут бесплатно комментировать PDF-файлы и примечать их после входа.
 
 Чтобы настроить приложение Adobe Acrobat в качестве обработчика по умолчанию для PDF-файлов в клиенте, выполните следующие действия в качестве необходимых условий:
 
