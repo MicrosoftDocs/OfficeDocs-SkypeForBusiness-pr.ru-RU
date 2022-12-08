@@ -10,6 +10,7 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
+- m365initiative-meetings
 appliesto:
 - Microsoft Teams
 f1.keywords:
@@ -20,14 +21,16 @@ ms.custom:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Узнайте, как использовать, управлять и настраивать пакеты политик в Майкрософт Teams для упрощения, оптимизации и обеспечения согласованности при управлении политиками для групп пользователей.
-ms.openlocfilehash: 138b1cada469a71cf844c8a73b1cb12511fc68b2
-ms.sourcegitcommit: aef1ab47fb9cb4502cb49bc3c7ffafcd62e54c82
+ms.openlocfilehash: c2c5884261a4e55c64f3164fd805f708ed42598d
+ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/02/2022
-ms.locfileid: "69245723"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "69318431"
 ---
 # <a name="managing-policy-packages-in-teams"></a>Управление пакетами политик в Teams
+
+[!INCLUDE[Teams Premium](includes/teams-premium-ecm.md)]
 
 Пакет политики в Microsoft Teams — это набор готовых политик и параметров политик, которые можно назначить пользователям с похожими ролями в организации. Мы создали пакеты политик для упрощения, оптимизации и обеспечения согласованности при управлении политиками для групп пользователей в вашей организации.  
 
@@ -81,7 +84,7 @@ ms.locfileid: "69245723"
 ## <a name="custom-policy-packages"></a>Пакеты настраиваемых политик
 
 > [!NOTE]
-> Функция пользовательских пакетов политик доступна в предварительной версии. Чтобы использовать эту функцию после предварительной версии, каждому пользователю потребуется лицензия Teams Premium.
+> Для пользовательских пакетов политик требуется Teams Premium.
 
 Пользовательские пакеты политик позволяют объединить собственный набор политик для пользователей с похожими ролями в вашей организации. Создайте собственные пакеты политик, добавив необходимые типы и политики.
 
