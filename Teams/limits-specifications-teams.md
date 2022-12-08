@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b34f22d5ef038eff44b5488588902d1a99af8676
-ms.sourcegitcommit: fcedb958bf555d870215ae84fb83752304944716
+ms.openlocfilehash: 5ae4adf9d803ea0b3482451a9ece5d3ceb0df598
+ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/06/2022
-ms.locfileid: "68486619"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "69307534"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Ограничения и спецификации для Microsoft Teams
 
@@ -70,7 +70,7 @@ ms.locfileid: "68486619"
 Users who participate in conversations that are part of the chat list in Teams must have an Exchange Online (cloud-based) mailbox for an admin to search chat conversations. That's because conversations that are part of the chat list are stored in the cloud-based mailboxes of the chat participants. If a chat participant doesn't have an Exchange Online mailbox, the admin won't be able to search or place a hold on chat conversations. For example, in an Exchange hybrid deployment, users with on-premises mailboxes might be able to participate in conversations that are part of the chat list in Teams. However, in this case, content from these conversations isn't searchable and can't be placed on hold because the users don't have cloud-based mailboxes. (For more, see [How Exchange and Microsoft Teams interact](exchange-teams-interact.md).)
 
 
-|Компонент  | Максимальный предел  |
+|Функция  | Максимальный предел  |
 |---------|---------|
 |Количество пользователей в закрытом чате<sup>1</sup>  | 250<sup>2</sup> |
 |Количество людей, подключившихся к видео- или аудиоконференции из чата | 20 |
@@ -162,12 +162,12 @@ Users who participate in conversations that are part of the chat list in Teams m
 
 <sup>1</sup> You can schedule as many Live Events as you want, but you can only run 15 at a time. As soon as the producer joins a live event, it's considered to be running. The producer who attempts to join the 16th live event gets an error.
 
-Дополнительные сведения о трансляциях см. в [статье "Трансляции Teams"](teams-live-events/plan-for-teams-live-events.md#teams-live-events). См. также [Планирование трансляции Teams](https://support.microsoft.com/office/schedule-a-teams-live-event-7a9ce97c-e1cd-470f-acaf-e6dfc179a0e2).
+Дополнительные сведения о трансляциях см. в разделе [Трансляции Teams](teams-live-events/plan-for-teams-live-events.md#teams-live-events). См. также [Планирование трансляции Teams](https://support.microsoft.com/office/schedule-a-teams-live-event-7a9ce97c-e1cd-470f-acaf-e6dfc179a0e2).
 
 > [!IMPORTANT]
 > **Повышение предельных значений для трансляций Microsoft 365**
 >
-> **Чтобы продолжить поддерживать потребности наших клиентов, мы продлеваем временное увеличение ограничений на прямые трансляции до 31 декабря 2022 г., в том числе:**:
+> **Чтобы продолжать поддерживать потребности наших клиентов, мы продлим временное увеличение лимита для трансляций до 30 июня 2023 г., в том числе:**
 >
 >- Поддержка событий для до 20 000 участников
 >- 50 одновременных трансляций в клиенте
