@@ -23,12 +23,12 @@ ms.collection:
 - purview-compliance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 23de1b32e757df8cc1f971ad4e9bed255f95af41
-ms.sourcegitcommit: d95a3408e31d3dec37c534c110b09a8847bec724
+ms.openlocfilehash: 2e07da669e489a53dfabd2ee7c1fee2079497857
+ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/23/2022
-ms.locfileid: "69156835"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "69392169"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>Общие сведения о записи на основе политик Teams для звонков & собраний
 
@@ -42,7 +42,7 @@ Teams была расширена для поддержки интеграции
 
 - Новые административные политики для записи соответствия требованиям, включая интеграцию с существующими инструментами и политиками для административных звонков и собраний Teams.
 
-Запись соответствия требованиям может быть включена для пользователей Microsoft 365 A3/A5/E3/E5/Business Premium, Office 365 A3/A5/E3/E5 или teams Room/Common Area Phone. 
+Запись соответствия требованиям можно включить для пользователей Microsoft 365 A3/A5/E3/E5/Business Premium, Office 365 A3/A5/E3/E5, Комнаты Teams лицензии или лицензии Майкрософт общих устройств Teams.
 
 > [!NOTE]
 > Запись соответствия требованиям в настоящее время не поддерживается для служб экстренных вызовов E911.

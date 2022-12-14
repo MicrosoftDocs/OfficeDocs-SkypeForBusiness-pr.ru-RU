@@ -28,12 +28,12 @@ adobe-target-activity: DocsExp–480823–A/B–Docs/TeamsSteps–HowToTabs–FY
 adobe-target-experience: Experience B
 adobe-target-content: ./create-a-phone-system-call-queue-experiment
 description: Узнайте, как настроить очереди звонков в Майкрософт Teams. Очереди звонков предоставляют приветственное сообщение, хранение музыки, перенаправление звонков и другие функции.
-ms.openlocfilehash: a55573b5a7c713366eb4f930f58de34971d21fce
-ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
+ms.openlocfilehash: da0b94281619940a955a7ca7aa0b4127fbb93f3c
+ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2022
-ms.locfileid: "69307554"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "69392229"
 ---
 # <a name="create-a-call-queue-in-microsoft-teams"></a>Создание очереди вызовов в Майкрософт Teams
 
@@ -134,9 +134,9 @@ ms.locfileid: "69307554"
 
 После создания этой учетной записи ресурса для идентификатора вызова вам по-прежнему потребуется:
 
-- Назначение [лицензии на учетную запись ресурса телефона Teams](manage-resource-accounts.md#assign-a-license)
-- Назначьте Майкрософт лицензию на тарифный план, назначьте номер телефона оператора Connect или назначьте политику маршрутизации голосовой связи через Интернет для прямой маршрутизации
-- Назначьте [номер телефона службы учетной записи ресурса](manage-resource-accounts.md#assign-a-service-number), если вы используете тарифный план Майкрософт
+- Назначьте [лицензию на учетную запись ресурса телефона Teams](manage-resource-accounts.md#assign-a-license).
+- Назначьте Майкрософт лицензию на тарифный план, назначьте номер телефона Оператора Connect или назначьте политику маршрутизации голосовой связи через Интернет для прямой маршрутизации.
+- Назначьте [номер телефона учетной записи ресурса](manage-resource-accounts.md#assign-a-phone-number), если вы используете тарифный план Майкрософт.
 
 ### <a name="set-the-call-queue-language"></a>Настройка языка очереди звонков
 
@@ -367,7 +367,7 @@ Teams предоставляет музыку по умолчанию вызыв
 
 ### <a name="call-queue-feature-compatibility"></a>Совместимость функций очереди вызовов
 
-|Функция                          |Teams Desktop<sup>1</sup> |Веб-приложение Teams | Teams Mobile<sup>2</sup> |Skype для бизнеса |IP-телефоны | Стандартные очереди звонков |Очереди вызовов на основе каналов | Комментарий |
+|Компонент                          |Teams Desktop<sup>1</sup> |Веб-приложение Teams | Teams Mobile<sup>2</sup> |Skype для бизнеса |IP-телефоны | Стандартные очереди звонков |Очереди вызовов на основе каналов | Комментарий |
 |:--------------------------------|:------------------------:|:--------:|:--------------:|:---:|:--------:|:--------------------:|:------------------------:|:--------|
 |**Методы маршрутизации агента**        |                          |          |                |     |          |                      |                          |   |
 |`Attendant Routing`              |Да                         |Да         |Да               |Да    |Да         |Да                     |Да                         |*По умолчанию*.     |
