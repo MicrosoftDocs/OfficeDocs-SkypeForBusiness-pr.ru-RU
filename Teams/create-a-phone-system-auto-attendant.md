@@ -25,12 +25,12 @@ adobe-target-activity: DocsExp–480823–A/B–Docs/TeamsSteps–HowToTabs–FY
 adobe-target-experience: Experience B
 adobe-target-content: ./create-a-phone-system-auto-attendant-experiment
 description: Узнайте, как настроить автосекретарей и управлять ими в Майкрософт Teams.
-ms.openlocfilehash: 1484b70dca4ffe1e148522cf6e907f79be732702
-ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
+ms.openlocfilehash: 1294559d1fcca7b1dace8f12cd3203b7effa4c80
+ms.sourcegitcommit: 81b3403a1a77ba202690c2d88bd8d1d5257048e5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2022
-ms.locfileid: "69307544"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "69379395"
 ---
 # <a name="set-up-a-microsoft-teams-auto-attendant"></a>Настройка автосекретаря Майкрософт Teams
 
@@ -172,7 +172,7 @@ ms.locfileid: "69307544"
 
 ## <a name="step-4-set-up-call-flows-for-holidays-optional"></a>Шаг 4. Настройка потоков звонков для праздников (необязательно)
 
-У вашего автосекретаря может быть поток звонков для каждого [настроенного вами выходного](set-up-holidays-in-teams.md). Вы можете добавить до 20 запланированных выходных для каждого автосекретаря.
+У вашего автосекретаря может быть поток звонков для каждого [настроенного вами выходного](set-up-holidays-in-teams.md). К каждому автосекретарю можно добавить до 20 наборов праздников. Каждый набор праздников может содержать до 10 уникальных диапазонов дат. Даты праздников должны быть уникальными во всех наборах праздников, добавляемых в автосекретарь.
 
 *Новое — можно включить параметр принудительного прослушивания, который требует, чтобы вызывающие пользователи прослушивали все параметры меню перед выбором.*
  *Новое — \* (звездочка) и \# (фунт) клавиши теперь можно использовать в меню.*
