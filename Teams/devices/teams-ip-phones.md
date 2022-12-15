@@ -22,12 +22,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Узнайте, какие офисные телефоны и телефоны для конференций сертифицированы для Майкрософт Teams для достижения наилучших результатов.
-ms.openlocfilehash: 0055529d7bc0344faeb04e7d35bf0c9ed457510d
-ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
+ms.openlocfilehash: e6e857539b47fdb991b92e90e7c9f2f1d609143c
+ms.sourcegitcommit: 7104222e5d379d1338fa8bf2555754d3ac5eeb82
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2022
-ms.locfileid: "69392359"
+ms.lasthandoff: 12/15/2022
+ms.locfileid: "69412232"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>устройства Android, сертифицированные Майкрософт Teams
 
@@ -402,7 +402,7 @@ ms.locfileid: "69392359"
 
 | Модель устройства  | Версия встроенного ПО | Включенный выпуск продукта|
 |:--------------|:-----------------|:-------------------------|
-|Аккуратная рамка nf21f1 | `NFF1.20220914.1215` | 30 ноября 2022 г. |
+|Аккуратная рамка nf21f1 | `NFF1.20220914.1215` | Обновление #3B 2022 г. |
 |Crestron UC-P10-TD     |1.0.0.57 |Обновление 2022 #3A|
 |Crestron UC-P8-TD     |1.0.0.57 |Обновление 2022 #3A|
 |Представление Lenovo ThinkSmart| `CD-18781Y.211116.114` |Обновление 3 за 2021 г.  |

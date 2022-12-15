@@ -19,16 +19,16 @@ ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 643c354086d93d7aa3edd4d73216b4b9d5dbbe56
-ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
+ms.openlocfilehash: 43e960a623992502f07d028a152fec3104e8670b
+ms.sourcegitcommit: 7104222e5d379d1338fa8bf2555754d3ac5eeb82
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/10/2022
-ms.locfileid: "68912478"
+ms.lasthandoff: 12/15/2022
+ms.locfileid: "69412252"
 ---
 # <a name="information-accessed-and-actions-performed-by-apps-and-related-admin-considerations"></a>Доступ к информации и действия, выполняемые приложениями, и связанные рекомендации администратора
 
-Приложения Microsoft Teams объединяют одну или несколько возможностей в приложения, которые можно установить, обновить и удалить. К возможностям приложений относятся:
+Майкрософт приложения Teams объединяют одну или несколько возможностей в приложения, которые можно установить, обновить и удалить. К возможностям приложений относятся:
 
 * Боты
 * расширения для обмена сообщениями;
@@ -68,12 +68,6 @@ ms.locfileid: "68912478"
   * Получите личное сообщение и ответьте на него.
   * Получите групповой чат и ответьте на него.
   * Получите сообщение канала и ответьте на него.
-
-* Следующие разрешения не являются явными, но подразумеваются операторами RECEIVE_MESSAGE и REPLYTO_MESSAGE и областями потенциального использования ботов, объявленными в манифесте:
-
-  * RECEIVE_MESSAGE_PERSONAL, REPLYTO_MESSAGE_PERSONAL
-  * RECEIVE_MESSAGE_GROUPCHAT, REPLYTO_MESSAGE_GROUPCHAT
-  * RECEIVE_MESSAGE_TEAM, REPLYTO_MESSAGE_TEAM
 
 * SEND_FILES, RECEIVE_FILES: <sup>2</sup> Определяет, может ли бот отправлять и получать файлы в личном чате (эта возможность пока не поддерживается для группового чата или каналов).
 
