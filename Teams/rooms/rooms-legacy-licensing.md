@@ -22,12 +22,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: Узнайте о лицензиях, доступных ранее для различных типов функций звонков и собраний в Комнаты Microsoft Teams, и сравните их.
-ms.openlocfilehash: a452267c789baa374f8bc5ade3fe050c4269831f
-ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
+ms.openlocfilehash: e02dd830f9d356400fa153305209dc59f48a765b
+ms.sourcegitcommit: b710fc61558a0e031d4e3e4000f234c495e2c4c6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2022
-ms.locfileid: "69392396"
+ms.lasthandoff: 12/17/2022
+ms.locfileid: "69438430"
 ---
 # <a name="microsoft-teams-rooms-legacy-licenses"></a>Комнаты Microsoft Teams устаревших лицензий
 
@@ -38,7 +38,7 @@ ms.locfileid: "69392396"
 
 ## <a name="licensing-solutions-for-shared-communication-devices"></a>Решения для лицензирования общих коммуникационных устройств
 
-Следующие лицензии были доступны клиентам, которые приобрели Комнаты Teams устройства (например, Комнаты Microsoft Teams, Microsoft Surface Hub и Комнаты Teams для Android) до 6 сентября 2022 г.
+Следующие лицензии были доступны клиентам, которые приобрели Комнаты Teams устройства (например, Комнаты Microsoft Teams, Microsoft Surface Hub и Комнаты Teams на Android) до 6 сентября 2022 г.
 
 |&nbsp;|Комнаты Microsoft Teams стандартный |Комнаты Microsoft Teams премиум |
 |:--- |:---: |:---: |

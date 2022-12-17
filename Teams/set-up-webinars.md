@@ -20,12 +20,12 @@ ms.collection:
 - m365initiative-meetings
 - highpri
 description: Узнайте, как управлять политиками регистрации вебинаров и собраний в Teams.
-ms.openlocfilehash: 37983f8597b9e1a0ed511c2d767c503494447481
-ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
+ms.openlocfilehash: 5493104b93a74dad6763e0a5ba6c9e6fd57575de
+ms.sourcegitcommit: b710fc61558a0e031d4e3e4000f234c495e2c4c6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2022
-ms.locfileid: "69307584"
+ms.lasthandoff: 12/17/2022
+ms.locfileid: "69438477"
 ---
 # <a name="set-up-webinars-in-microsoft-teams"></a>Настройка вебинаров в Майкрософт Teams
 
@@ -52,6 +52,9 @@ ms.locfileid: "69307584"
 Новый интерфейс вебинара настраивается в PowerShell. См. примеры настройки [нового вебинара](#set-up-new-webinar-experience).
 
 Дополнительные сведения о различиях между собраниями, вебинарами и трансляциями см. в разделе [Собрания, вебинары и трансляции](quick-start-meetings-live-events.md).
+
+> [!NOTE]
+> Новый вебинар недоступен для Майкрософт 365 GCC, Майкрософт 365 GCC High или Майкрософт 365 DoD. Существующий вебинар недоступен для Майкрософт 365 GCC High или Майкрософт 365 DoD.
 
 > [!IMPORTANT]
 > Чтобы пользователи могли настраивать вебинары, необходимо настроить Microsoft Списки в SharePoint, включив создание личных списков для целей обнаружения электронных данных. Дополнительные сведения см. в разделе [Параметры управления для Microsoft Списки](/sharepoint/control-lists).
