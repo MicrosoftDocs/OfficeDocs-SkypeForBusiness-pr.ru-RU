@@ -3,6 +3,28 @@
 
 
 
+## <a name="week-of-december-12-2022"></a>Неделя с 12 декабря 2022 г.
+
+
+| Дата публикации |Название статьи | Изменение |
+|------|------------|--------|
+| 12/14/2022 | [Лицензирование общих устройств Teams Майкрософт](/MicrosoftTeams/teams-add-on-licensing/teams-shared-device-license) | Добавлено |
+| 12/14/2022 | [Управление тем, кто может обойти зал собраний в Майкрософт Teams](/MicrosoftTeams/who-can-bypass-meeting-lobby) | Добавлено |
+| 12/14/2022 | [Настройка пользовательского интерфейса устройств Android Майкрософт Teams](/MicrosoftTeams/devices/teams-android-devices-user-interface) | Изменено |
+| 12/14/2022 | [Устройства для Teams](/MicrosoftTeams/devices/teams-ip-phones) | Изменено |
+| 12/14/2022 | [Планирование прямой маршрутизации](/MicrosoftTeams/direct-routing-plan) | Изменено |
+| 12/14/2022 | [Майкрософт Teams Premium — обзор для администраторов](/MicrosoftTeams/enhanced-teams-experience) | Изменено |
+| 12/14/2022 | [Настройка телефонов общего пользования для Майкрософт Teams](/MicrosoftTeams/set-up-common-area-phones) | Изменено |
+| 12/14/2022 | [Лицензирование Майкрософт Teams Premium](/MicrosoftTeams/teams-add-on-licensing/licensing-enhance-teams) | Изменено |
+| 12/15/2022 | [Общие вопросы об аудиоконференциях](/MicrosoftTeams/audio-conferencing-common-questions) | Изменено |
+| 12/15/2022 | [Номера телефонов и изменения лицензирования](/MicrosoftTeams/phone-numbers-licensing-changes) | Изменено |
+| 12/15/2022 | [Заметки о выпуске для Комнаты Microsoft Teams (Windows)](/MicrosoftTeams/rooms/rooms-release-note) | Изменено |
+| 12/16/2022 | [Прокси-серверы для Teams или Skype для бизнеса Online](/MicrosoftTeams/proxy-servers-for-skype-for-business-online) | Изменено |
+| 12/16/2022 | [Развертывание Комнаты Microsoft Teams на Android](/MicrosoftTeams/devices/collab-bar-deploy) | Изменено |
+| 12/16/2022 | [Удаленное обновление устройств Майкрософт Teams](/MicrosoftTeams/devices/remote-update) | Изменено |
+| 12/16/2022 | [Комнаты Microsoft Teams безопасности Windows](/MicrosoftTeams/rooms/security-windows) | Изменено |
+
+
 ## <a name="week-of-december-05-2022"></a>Неделя с 5 декабря 2022 г.
 
 
