@@ -3,6 +3,15 @@
 
 
 
+## <a name="week-of-december-19-2022"></a>Неделя с 19 декабря 2022 г.
+
+
+| Дата публикации |Название статьи | Изменение |
+|------|------------|--------|
+| 12/19/2022 | [Управление доступом к приложениям Teams в Microsoft 365](/MicrosoftTeams/manage-third-party-teams-apps) | Изменено |
+| 12/21/2022 | [Шаблон виртуального собрания встречи в Майкрософт Teams](/MicrosoftTeams/virtual-appointment-meeting-template) | Добавлено |
+
+
 ## <a name="week-of-december-12-2022"></a>Неделя с 12 декабря 2022 г.
 
 
