@@ -16,12 +16,12 @@ description: Сведения об аудите действий пользов�
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 5aee5bf00d486586b4bc8e9583504be5e4a9b922
-ms.sourcegitcommit: 54c691bd34980a47a5ebf58555529a618a8cada7
+ms.openlocfilehash: 9114bae9fa24a546aec2629f1f347af193b10fd5
+ms.sourcegitcommit: 339a35e461c84ee309ade1a53299ba12231df7a3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/03/2022
-ms.locfileid: "69251882"
+ms.lasthandoff: 12/29/2022
+ms.locfileid: "69677509"
 ---
 # <a name="search-audit-logs-for-app-management-activities-and-events"></a>Поиск журналов аудита для действий и событий управления приложениями
 
@@ -78,7 +78,7 @@ ms.locfileid: "69251882"
 
 ## <a name="related-articles"></a>Статьи по теме
 
-* [Использование журналов аудита для изучения действий установки Microsoft Power Platform](manage-power-platform-apps.md#use-audit-logs-to-investigate-microsoft-power-platform-installation-activity)
+* [Используйте журналы аудита для изучения Майкрософт действий установки Power Platform](manage-power-platform-apps.md#use-audit-logs-to-check-microsoft-power-platform-installation-activity).
 * [Поиск подписи аудита на портале соответствия требованиям](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance).
 * [Обзор Аудита премиум Microsoft Purview](/microsoft-365/compliance/advanced-audit).
 * [Включение или отключение аудита](/microsoft-365/compliance/turn-audit-log-search-on-or-off).

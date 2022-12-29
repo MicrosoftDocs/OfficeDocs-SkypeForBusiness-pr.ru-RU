@@ -22,12 +22,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
-ms.openlocfilehash: 7713f1f2bf1f3a4866751d02ba702cb2d3d244f0
-ms.sourcegitcommit: d95a3408e31d3dec37c534c110b09a8847bec724
+ms.openlocfilehash: 7ded369ab991a37e711c416a7448447f148c069c
+ms.sourcegitcommit: 339a35e461c84ee309ade1a53299ba12231df7a3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/23/2022
-ms.locfileid: "69156845"
+ms.lasthandoff: 12/29/2022
+ms.locfileid: "69677419"
 ---
 # <a name="understand-microsoft-teams-apps-and-their-capabilities"></a>Общие сведения о приложениях Майкрософт Teams и их возможностях
 
@@ -92,7 +92,7 @@ Teams предоставляется с набором встроенных пр
 
 Пользователи могут просматривать все приложения, доступные в Teams, из магазина приложений Teams в классическом или веб-клиенте Teams. Пользователи могут выполнять поиск по имени, просматривать по категориям и просматривать приложения, созданные для вашей организации и созданные с помощью Power Platform, для обнаружения и установки приложений в Teams.
 
-Приложения можно закрепить в Teams для удобства доступа. Пользователи могут [самостоятельно закреплять приложения,](https://support.microsoft.com/office/pin-an-app-for-easy-access-3045fd44-6604-4ba7-8ecc-1c0d525e89ec) если это разрешено политикой установки и если приложение разрешено администратором Teams. Администраторы могут закреплять приложения и управлять поведением закрепленных приложений. Дополнительные сведения см. в разделе [Политики настройки приложений](/teams-app-setup-policies).
+Приложения можно закрепить в Teams для удобства доступа. Пользователи могут [самостоятельно закреплять приложения,](https://support.microsoft.com/office/pin-an-app-for-easy-access-3045fd44-6604-4ba7-8ecc-1c0d525e89ec) если это разрешено политикой установки и если приложение разрешено администратором Teams. Администраторы могут закреплять приложения и управлять поведением закрепленных приложений. Дополнительные сведения см. в разделе [Политики настройки приложений](/microsoftteams/teams-app-setup-policies).
 
 :::image type="content" source="media/user-app-experience-find-apps.png" alt-text="Снимок экрана: все места, где пользователи могут просматривать приложения в Майкрософт Teams." lightbox="media/user-app-experience-find-apps-full.png":::
 

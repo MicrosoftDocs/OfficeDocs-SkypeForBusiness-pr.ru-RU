@@ -18,19 +18,19 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Узнайте, как управлять доступом к пользовательским приложениям, созданным с помощью Microsoft Power Platform, в Центре администрирования Teams.
-ms.openlocfilehash: c4ac0bd3551bb53da06de3301447c6bf4842540c
-ms.sourcegitcommit: 22f66e314e631b3c9262c5c7dc5664472f42971e
+ms.openlocfilehash: cf47cb5a2441676aba706b2353837d51997d9b4f
+ms.sourcegitcommit: 339a35e461c84ee309ade1a53299ba12231df7a3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/10/2022
-ms.locfileid: "68912588"
+ms.lasthandoff: 12/29/2022
+ms.locfileid: "69677399"
 ---
 # <a name="manage-microsoft-power-platform-apps-in-the-teams-admin-center"></a>Управление приложениями Microsoft Power Platform в Центре администрирования Teams
 
-В этой статье представлен обзор управления пользовательскими приложениями, созданными с помощью приложений [Microsoft Power Platform](https://powerplatform.microsoft.com/) в Центре администрирования Microsoft Teams. Пользовательские приложения создаются разработчиками в организации для внутренних пользователей.
+В этой статье описано, как управлять пользовательскими приложениями, созданными с помощью Майкрософт приложений [Power Platform](https://powerplatform.microsoft.com/) в Центре администрирования Майкрософт Teams. Пользовательские приложения создаются разработчиками в организации для внутренних пользователей.
 
 > [!NOTE]
-> Эта статья не относится к приложению Power Apps или приложению Power Virtual Agents, установленным со страницы "Приложения" или закрепленным в Teams с помощью политики установки приложения. Вы можете управлять приложениями Магазина с помощью[политик разрешений для приложений](teams-app-permission-policies.md) и [политик установки приложений](teams-app-setup-policies.md).
+> Эта статья не применяется к приложению или `Power Virtual Agents` приложению`Power Apps`, которые устанавливаются из магазина приложений или закреплены в Teams с помощью политики установки приложения. Вы можете управлять приложениями Магазина с помощью[политик разрешений для приложений](teams-app-permission-policies.md) и [политик установки приложений](teams-app-setup-policies.md).
 
 [Power Apps](https://powerapps.microsoft.com) — это среда разработки приложений с низким кодом или без кода, которую создатели приложений в вашей организации могут использовать для создания пользовательских приложений, подключаемых к бизнес-данным. [Power Virtual Agents](/power-virtual-agents/fundamentals-what-is-power-virtual-agents) — это среда создания ботов без кода, которая позволяет разработчикам приложений создавать мощные боты. Благодаря интеграции приложений Microsoft Power Platform в Teams организации могут упростить бизнес-процессы, быстрее реагировать на меняющиеся бизнес-потребности, чтобы ускорить совместную работу, а также создавать и совместно использовать настраиваемые решения для более эффективной работы.  
 
@@ -73,7 +73,7 @@ ms.locfileid: "68912588"
     * Чтобы заблокировать приложения, созданные в Power Apps или Power Virtual Agents для всех пользователей в организации, выполните поиск по запросу **Общие приложения Power Apps** или **Общие приложения Power Virtual Agent**, выберите приложение, а затем выберите пункт **Блокировать**.
     * Чтобы разрешить приложения, созданные в Power Apps или Power Virtual Agents для всех пользователей в организации, выполните поиск по запросу **Общие приложения Power Apps** или **Общие приложения Power Virtual Agent**, выберите приложение, а затем выберите пункт **Разрешить**.
 
-### <a name="allow-microsoft-power-platform-apps-for-specific-users"></a>Разрешить приложения Microsoft Power Platform для определенных пользователей
+### <a name="allow-microsoft-power-platform-apps-for-specific-users"></a>Разрешение Майкрософт приложений Power Platform для определенных пользователей
 
 Чтобы разрешить или запретить определенным пользователям в организации доступ к приложениям, созданным в Power Apps или Power Virtual Agents, создайте и назначьте одну или несколько настраиваемых [политик разрешений для приложений](teams-app-permission-policies.md).
 
@@ -81,7 +81,7 @@ ms.locfileid: "68912588"
 
 :::image type="content" source="media/manage-power-platform-apps-app-permission-policy.png" alt-text="Снимок экрана: пример настраиваемой политики для разрешений приложений с блокировкой общих приложений Power Apps.":::
 
-### <a name="use-audit-logs-to-investigate-microsoft-power-platform-installation-activity"></a>Использование журналов аудита для изучения действий установки Microsoft Power Platform
+### <a name="use-audit-logs-to-check-microsoft-power-platform-installation-activity"></a>Использование журналов аудита для проверки Майкрософт действия установки Power Platform
 
 Журналы аудита для Teams можно использовать для изучения событий, в которых пользователи устанавливали приложения Microsoft Power Platform из раздела **Создание с помощью Power Platform** на странице "Приложения" в Teams. Для этого [выполните поиск в журнале аудита](./audit-log-events.md) для события Teams **Установленные приложения** (в разделе операции **AppInstalled**) для пользователя или набора пользователей. Чтобы найти приложения, установленные из **Создание с помощью Power Platform**, найдите значение **TemplatedInstance** в свойстве **AppDistributionMode** в сведениях заданной записи.
 
