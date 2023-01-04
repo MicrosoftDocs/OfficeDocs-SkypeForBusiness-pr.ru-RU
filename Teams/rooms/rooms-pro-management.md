@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Сведения об управлении Комнаты Microsoft Teams Pro.
 f1keywords: ''
-ms.openlocfilehash: cadf078c4d56c518acda73a44b62c55f346f189c
-ms.sourcegitcommit: 0e4e5b9933970827ea4be137ca98eab6994e2301
+ms.openlocfilehash: 9ef0db845e9eb0778bc53cbcf9e0998531daf6e0
+ms.sourcegitcommit: 2363af0ed4de97f1ec836ca2ad9e3854cf9fa601
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 01/04/2023
-ms.locfileid: "69696894"
+ms.locfileid: "69702092"
 ---
 # <a name="microsoft-teams-rooms-pro-management"></a>Управление Комнаты Microsoft Teams Pro
 
@@ -58,7 +58,7 @@ ms.locfileid: "69696894"
 |**Управление обновлениями**    |Автоматическая настройка и доставка Комнаты Microsoft Teams приложения на основе предварительно настроенных кругов развертывания.         |
 |**Аналитические сведения и рекомендации**     |Аналитические сведения о работоспособности помещений, использовании и надежности оборудования.         |
 |**Соответствие требованиям и сертификации**   |Соответствует всем применимым стандартам для Microsoft Online Services.         |
-|**Поддерживаемые устройства**    |Сертифицированные системы Комнаты Microsoft Teams и их периферийные устройства.<br>*Поддержка Surface Hub и MTR Android появится во второй половине 2022 г.*        |
+|**Поддерживаемые устройства**    |Сертифицированные системы Комнаты Microsoft Teams и их периферийные устройства.<br>*Поддержка Surface Hub и MTR Android в 2023 году*        |
 |**Поддерживаемые регионы**    |См. [раздел Поддерживаемые регионы](#supported-regions).        |
 |**Интеграции**    |Доступна базовая интеграция со службой, размещенной у клиента, для координации инцидентов.         |
 
