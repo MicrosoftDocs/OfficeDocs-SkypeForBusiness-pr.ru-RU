@@ -1,5 +1,5 @@
 ---
-title: Собственный чат для внешних (федеративных) пользователей в Майкрософт Teams
+title: Собственный интерфейс чата для внешних (федеративных) пользователей в Microsoft Teams
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -15,21 +15,24 @@ ms.reviewer: vinbel
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Узнайте о собственном интерфейсе чата Teams для пользователей с внешним доступом (федеративного) в Майкрософт Teams, где оба пользователя находятся в режиме обновления TeamsOnly.
-ms.openlocfilehash: 134216364fdd7397d8a7d72a2ae6684cfa9f90b4
-ms.sourcegitcommit: dc5b3870fd338f7e9ab0a602a44eaf9feb595b2f
+description: Узнайте о собственном интерфейсе чата Teams для пользователей внешнего доступа (федеративного) в Microsoft Teams, где оба пользователя находятся в режиме обновления TeamsOnly.
+ms.openlocfilehash: 759ad4f03de099637df0e92a7a8925a7c18ae3fd
+ms.sourcegitcommit: 8f26bf0ff88f1f6881de32914be00d5f0cc7396a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/30/2022
-ms.locfileid: "69198881"
+ms.lasthandoff: 01/09/2023
+ms.locfileid: "69740804"
 ---
-# <a name="native-chat-experience-for-external-federated-users-in-microsoft-teams"></a>Собственный чат для внешних (федеративных) пользователей в Майкрософт Teams
+# <a name="native-chat-experience-for-external-federated-users-in-microsoft-teams"></a>Собственный интерфейс чата для внешних (федеративных) пользователей в Microsoft Teams
 
-Когда пользователь Майкрософт Teams общается с внешним (федеративным) пользователем, взаимодействие с чатом ограничивается текстом. Однако если и ваш пользователь Teams, и сотрудник другой организации находятся в режиме обновления TeamsOnly, вы можете использовать "собственный чат Teams", который включает в себя расширенное форматирование, @mentions и другие функции чата.
+Когда пользователь Microsoft Teams общается с внешним (федеративным) пользователем, взаимодействие с чатом ограничено текстом. Однако если и ваш пользователь Teams, и сотрудник другой организации находятся в режиме обновления TeamsOnly, вы можете использовать "собственный чат Teams", который включает в себя расширенное форматирование, @mentions и другие функции чата.
 
 Собственный чат для пользователей в других организациях включен для всех клиентов Teams, но не все пользователи имеют право. Чтобы предложить собственный интерфейс чата, отправитель и получатель должны быть настроены в режиме обновления TeamsOnly. Дополнительные сведения о политиках обновления см. в статье [Настройка параметров сосуществования и обновления](setting-your-coexistence-and-upgrade-settings.md).
 
 Список возможностей для пользователей внешнего доступа в Teams см. в статье [Сравнение внешнего и гостевого доступа](communicate-with-users-from-other-organizations.md#compare-external-and-guest-access).
+
+> [!NOTE]
+> Собственный интерфейс чата недоступен для разных облачных сред Microsoft 365: Microsoft 365 WorldWide (включая GCC) от и до GCC High, GCC High от и до DoD или WW от и до DoD.
 
 ## <a name="how-do-i-know-if-im-in-a-native-chat"></a>Разделы справки знаете, что я в собственном чате?
 
