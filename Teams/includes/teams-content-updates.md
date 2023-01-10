@@ -3,6 +3,18 @@
 
 
 
+## <a name="week-of-january-02-2023"></a>Неделя с 2 января 2023 г.
+
+
+| Дата публикации |Название статьи | Изменение |
+|------|------------|--------|
+| 1/3/2023 | [Управление общими политиками собраний](/MicrosoftTeams/meeting-policies-in-teams-general) | Изменено |
+| 1/3/2023 | [Управление политиками собраний для участников и гостей](/MicrosoftTeams/meeting-policies-participants-and-guests) | Изменено |
+| 1/3/2023 | [Аудиоконференция с телефонным подключением/звонок через минуты](/MicrosoftTeams/audio-conferencing-subscription-dial-out) | Изменено |
+| 1/4/2023 | [Руководство для ИТ-администраторов по Insights в Microsoft Teams для образования](/MicrosoftTeams/class-insights) | Изменено |
+| 1/5/2023 | Улучшение существующих групп Microsoft 365 | Удалено |
+
+
 ## <a name="week-of-december-26-2022"></a>Неделя с 26 декабря 2022 г.
 
 
