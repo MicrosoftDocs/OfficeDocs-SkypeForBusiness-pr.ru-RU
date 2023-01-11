@@ -19,14 +19,17 @@ ms.custom:
 - admindeeplinkMAC
 robots: noindex
 description: Узнайте, как удалить бесплатные (классические) лицензии Teams и назначить платные лицензии Teams пользователям вашей организации.
-ms.openlocfilehash: 027f84577a50d445eb01bce896417f23e503abb7
-ms.sourcegitcommit: 1398c778e46b0d81c9710cd70d3818a2b7af995a
+ms.openlocfilehash: 3015036d0656a80ac8440d2c193003cc7d67d9fc
+ms.sourcegitcommit: 0d25efb3dae31d5199807a14baaf30e944f561ce
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/09/2023
-ms.locfileid: "69749163"
+ms.lasthandoff: 01/11/2023
+ms.locfileid: "69767670"
 ---
 # <a name="retire-microsoft-teams-free-classic-for-your-organization"></a>Прекращение Бесплатная версия Microsoft Teams (классическая) для вашей организации
+
+> [!NOTE]
+> Если вы являетесь бесплатным (классическим) пользователем Teams, вы потеряете доступ к Teams в середине апреля 2023 г., если ИТ-администратор не выполняет следующие действия, описанные в этой статье.
 
 В середине апреля 2023 г. корпорация Майкрософт прекращает **использование лицензии на Бесплатная версия Microsoft Teams (классическая)**.
 

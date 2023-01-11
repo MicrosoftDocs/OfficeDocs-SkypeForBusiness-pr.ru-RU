@@ -23,12 +23,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 ROBOTS: NOINDEX, NOFOLLOW
 description: Узнайте, как использовать отчет Power BI "Автосекретарь Teams" & отчета Power BI "Очередь вызовов" для просмотра исторических данных автосекретаря и очереди вызовов для клиентов GCC High и DoD.
-ms.openlocfilehash: 619be6d7f0f78f67ef2db0f0693de82120d128c4
-ms.sourcegitcommit: e9718ad7e23317d490b238b3801267cb2e6b26e2
+ms.openlocfilehash: cde953bfd8e9c95c60c795f6de91488506c2addf
+ms.sourcegitcommit: ae687f530d5505b96df7cb7ef4da3a36bd9afd29
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/28/2022
-ms.locfileid: "69176763"
+ms.lasthandoff: 01/10/2023
+ms.locfileid: "69763680"
 ---
 # <a name="auto-attendant-and-call-queue-historical-reports-for-gcc-high-and-dod"></a>Отчеты об истории автосекретаря и очереди вызовов для GCC High и DoD
 
@@ -50,7 +50,7 @@ ms.locfileid: "69176763"
 ## <a name="v163-prerequisites"></a>Предварительные требования для версии 1.63
 
 ### <a name="power-bi-desktop"></a>Power BI Desktop
-Необходимо установить Power BI Desktop. Вы можете установить и использовать бесплатную версию из [Майкрософт Магазина Windows](https://aka.ms/pbidesktopstore).
+Необходимо установить Power BI Desktop. Вы можете установить и использовать бесплатную версию из [Microsoft Store.](https://aka.ms/pbidesktopstore)
 
 Минимальная совместимая версия — 2.85.681.0 (сентябрь 2020 г.).
 
@@ -66,15 +66,17 @@ ms.locfileid: "69176763"
 
 1. Скачайте и сохраните ZIP-файл [шаблонов запросов CQD Power BI](https://www.microsoft.com/download/details.aspx?id=102291) на компьютере.
 
-1. Откройте ZIP-файл.
+2. Откройте ZIP-файл.
 
-1. `CQD Teams Auto Attendant & Call Queue Historical Report V1.60.pbit` Откройте файл шаблона. Power BI Desktop должно запуститься.
+3. `CQD Teams Auto Attendant & Call Queue Historical Report V1.63.pbit` Откройте файл шаблона. Power BI Desktop должно запуститься.
 
-1. Вам будет предложено выбрать регион конвейера данных CQD. Выберите регион, в котором находится клиент.
+4. Вам будет предложено выбрать регион конвейера данных CQD. Выберите регион, в котором находится клиент.
 
-  :::image type="content" source="media/aa-cq-historical-report-01-v163.png" alt-text="Снимок экрана: выбор области конвейера данных CQD.":::
+     :::image type="content" source="media/aa-cq-historical-report-01-v163.png" alt-text="Снимок экрана: выбор области конвейера данных CQD.":::
 
-1. Регион, в котором находится клиент, можно получить с помощью командлета [Get-CsTenant](/powershell/module/skype/get-cstenant) .
+    Клиенты общедоступного облака
+
+5. Регион, в котором находится клиент, можно получить с помощью командлета [Get-CsTenant](/powershell/module/skype/get-cstenant) .
 
     ```powershell
     (Get-CsTenant).ServiceInstance
@@ -82,19 +84,27 @@ ms.locfileid: "69176763"
     microsoftcommunicationsonline/noam-4a-s7
     ```
 
-    1. Регион будет отображаться после **/** , как в приведенном выше примере, где регион — `noam`.
+    Регион будет отображаться после **/** , как в приведенном выше примере, где регион — `noam`.
 
- 1. Отчет будет запущен с примерами данных.
+    Клиенты GCC High и DoD
+
+6. Обновите шаблон, чтобы использовать один из следующих соединителей:
+
+   - GCCH: `https://data.cqd.gov.teams.microsoft.us/RunQuery`
+   - Dod: `https://data.cqd.dod.teams.microsoft.us/RunQuery`
+
+
+7. Отчет будет запущен с примерами данных.
  
- 1. Чтобы просмотреть собственные данные, выберите **Обновить** на вкладке **Главная** в разделе **Запросы** в Power BI Desktop.
+8. Чтобы просмотреть собственные данные, выберите **Обновить** на вкладке **Главная** в разделе **Запросы** в Power BI Desktop.
 
    :::image type="content" source="media/aa-cq-historical-report-02-v163.png" alt-text="Снимок экрана: выбор параметра обновления.":::
 
-1. Вам будет предложено войти. Выберите **Учетная запись организации**, а затем — **Войти**.
+9. Вам будет предложено войти. Выберите **Учетная запись организации**, а затем — **Войти**.
 
-  :::image type="content" source="media/aa-cq-historical-report-03-v163.png" alt-text="Снимок экрана: вход для версии 1.63.":::
+   :::image type="content" source="media/aa-cq-historical-report-03-v163.png" alt-text="Снимок экрана: вход для версии 1.63.":::
 
-1. Выберите **Подключиться**, и данные обновятся.
+10. Выберите **Подключиться**, и данные обновятся.
 
 ## <a name="data-latency-for-aa-and-cq-analytics"></a>Задержка данных для аналитики AA и CQ
 
@@ -116,11 +126,11 @@ ms.locfileid: "69176763"
 
 1. Выберите **вкладку Вид** на ленте.
 
-  :::image type="content" source="media/aa-cq-historical-report-04.png" alt-text="Снимок экрана: выбор вкладки представления для изменения цветовой схемы.":::
+    :::image type="content" source="media/aa-cq-historical-report-04.png" alt-text="Снимок экрана: выбор вкладки представления для изменения цветовой схемы.":::
 
 2. Выберите цветовую схему в раскрывающемся списке.
 
-  :::image type="content" source="media/aa-cq-historical-report-05.png" alt-text="Снимок экрана: различные цветовые схемы.":::
+    :::image type="content" source="media/aa-cq-historical-report-05.png" alt-text="Снимок экрана: различные цветовые схемы.":::
   
 ## <a name="auto-attendant-and-call-queue-historical-reports-definitions"></a>Определения журналов отчетов автосекретаря и очереди вызовов
 

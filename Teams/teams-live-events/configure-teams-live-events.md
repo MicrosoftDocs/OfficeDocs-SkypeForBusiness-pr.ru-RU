@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 449aaa73b42248661ec141bd8d004cf754379750
-ms.sourcegitcommit: 73b13cd8a79ba1724b9fb79c8356a7cacafb7dd3
+ms.openlocfilehash: 7ff5dada4c1f37c6afaf2948a5cef2b6169350d0
+ms.sourcegitcommit: 0d25efb3dae31d5199807a14baaf30e944f561ce
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/15/2022
-ms.locfileid: "68965781"
+ms.lasthandoff: 01/11/2023
+ms.locfileid: "69767620"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>Настройка параметров трансляции в Microsoft Teams
 
@@ -56,23 +56,26 @@ ms.locfileid: "68965781"
 ```PowerShell
 Set-CsTeamsMeetingBroadcastConfiguration -SupportURL “{your URL}”
 ```
-Дополнительные сведения см. в разделе [Set-CsTeamsMeetingBroadcastConfiguration](/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps&preserve-view=true).
-## <a name="configure-a-third-party-video-distribution-provider"></a>Настройка стороннего поставщика услуг распространения видео 
 
-Если вы приобрели и настроили решение программно-определяемой сети (SDN) или решение корпоративной сети доставки содержимого (eCDN) через партнера майкрософт по доставке видео, настройте поставщика для трансляций в Teams. 
+Дополнительные сведения см. в разделе [Set-CsTeamsMeetingBroadcastConfiguration](/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps&preserve-view=true).
+
+## <a name="configure-a-third-party-video-distribution-provider"></a>Настройка стороннего поставщика услуг распространения видео
+
+Если вы приобрели и настроили решение программно-определяемой сети (SDN) или решение корпоративной сети доставки содержимого (eCDN) через партнера майкрософт по доставке видео, настройте поставщика для трансляций в Teams.
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>С помощью Центра администрирования Microsoft Teams
 
 1. В области навигации слева перейдите в **раздел Параметры трансляции** >  **собраний**.
-2. В разделе **Сторонние поставщики видеораспространителя** выполните следующие действия. 
+2. В разделе **Сторонние поставщики видеораспространителя** выполните следующие действия.
 
     ![Параметры стороннего поставщика услуг распространения видео в Центре администрирования.](../media/teams-live-events-settings-distribution-provider-new.png "Снимок экрана: параметры стороннего поставщика услуг распространения видео для трансляций")
 
     - **Сторонний поставщик рассылки** Включите этот параметр, чтобы включить стороннего поставщика видеораспространителя.
     - **Имя поставщика SDN** Выберите поставщика, который вы используете.
     - **Конфигурация SDN** Введите сведения о конфигурации SDN.
-        
+
 ### <a name="using-windows-powershell"></a>Использование Windows PowerShell
+
 Получите идентификатор лицензии или маркер API и шаблон API от вашего контакта поставщика, а затем выполните одно из следующих действий в зависимости от используемого поставщика:
 
 **ECDN Майкрософт**
@@ -99,15 +102,13 @@ Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $T
 Дополнительные сведения см. в разделе [Set-CsTeamsMeetingBroadcastConfiguration](/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps&preserve-view=true).
 
 > [!NOTE]
-> Если вы планируете создавать трансляции с помощью внешнего приложения или устройства, необходимо также [настроить поставщик eCDN с помощью Microsoft Stream](/stream/network-caching). 
-
->[!Note]
-> The change from using Microsoft Stream to [OneDrive for Business and SharePoint for meeting recordings](../tmr-meeting-recording-change.md) will be a phased approach. At launch you'll be able to opt-in to this experience, in November you'll have to opt-out if you want to continue using Stream, and some time in early 2021 we'll require all customers to use OneDrive for Business and SharePoint for new meeting recordings.
+> Если вы планируете создавать трансляции с помощью внешнего приложения или устройства, вам также потребуется [настроить поставщик eCDN](../teams-stream-ecdn.md).
 
 >[!Note]
 > Выбранное решение eCDN регулируется условиями обслуживания и политикой конфиденциальности выбранного стороннего поставщика, которые будут регулировать использование решения поставщика eCDN. На использование решения поставщика eCDN не распространяются условия корпоративного лицензирования Майкрософт или условия веб-служб. Если вы не согласны с условиями стороннего поставщика, не включайте решение eCDN в Microsoft Teams.
 
 ### <a name="related-topics"></a>См. также
+
 - [Что такое прямые трансляции Teams?](what-are-teams-live-events.md)
 - [Планирование трансляций Teams](plan-for-teams-live-events.md)
 - [Настройка прямых трансляций Teams](set-up-for-teams-live-events.md)
