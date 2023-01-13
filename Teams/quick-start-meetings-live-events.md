@@ -23,12 +23,12 @@ ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 45148768d023b3cb6b609c1f315fe8d71031a573
-ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
+ms.openlocfilehash: e9fbd6e9075ee5680eaae4dc88dde96c842c5a7b
+ms.sourcegitcommit: ca4d1011f3d62af203145431f0b19065ad81601b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2022
-ms.locfileid: "69392199"
+ms.lasthandoff: 01/13/2023
+ms.locfileid: "69800055"
 ---
 # <a name="meetings-webinars-and-live-events"></a>Собрания, вебинары и трансляции
 
@@ -50,14 +50,14 @@ ms.locfileid: "69392199"
 | Вебинары | – До 1 000<br>– Увеличены ограничения и скоро ожидается функция [Только просмотр](view-only-meeting-experience.md). |– Если число участников не превышает 1 000, им предоставляются полностью интерактивные возможности.<br> – Настраиваемое взаимодействие с аудиторией.<br> – Можно указать выступающих. | Да |
 | Трансляции | До 20 000** |– Транслирование для больших аудиторий. <br>– Модерируемые вопросы и ответы для взаимодействия с аудиторией. <br> – Можно указать организаторов и выступающих, в том числе приглашенных докладчиков.<br>– Поддержка расширенных возможностей рабочей среды. | Нет |
 
-*Обычное число участников (10 000) увеличено до 20 000 до 31 декабря 2022 г.
+*Обычные 10 000 увеличены до 20 000 до 30 июня 2023 года.
 
-**Обычное число участников (10 000) увеличено до 20 000 до 31 декабря 2022 г. Трансляции в Yammer и/или Microsoft Stream позволяют запланировать даже большее число участников. Подробнее см. в статье [Трансляции в Microsoft 365](/stream/live-event-m365). Обратите внимание, что для событий с количеством участников более 20 000 необходима [Программа поддержки трансляций](/stream/live-events-assistance).
+** Обычные 10 000 увеличены до 20 000 до 30 июня 2023 года. Трансляции в Yammer и/или Microsoft Stream позволяют запланировать даже большее число участников. Подробнее см. в статье [Трансляции в Microsoft 365](/stream/live-event-m365). Обратите внимание, что для событий с количеством участников более 20 000 необходима [Программа поддержки трансляций](/stream/live-events-assistance).
 
 Note that NDI is fully supported in meetings, webinars, and live events, allowing you to produce the broadcast by using tools such as OBS and Wirecast. For more information, see [Use NDI® technology in Microsoft Teams](use-ndi-in-meetings.md).
 
 > [!NOTE]
-> Дополнительные сведения и инструкции по роли для доставки онлайн-событий с помощью Майкрософт Teams см. в [сборнике схем виртуальных событий](https://aka.ms/VirtualEventPlaybook). Вы также можете присоединиться к [виртуальному форуму событий](https://aka.ms/VirtualEventForum) на Microsoft Tech Community.
+> Дополнительные сведения и инструкции по роли по доставке онлайн-событий с помощью Microsoft Teams см. в [сборнике схем виртуальных событий](https://aka.ms/VirtualEventPlaybook). Вы также можете присоединиться к [виртуальному форуму событий](https://aka.ms/VirtualEventForum) на Microsoft Tech Community.
 
 > [!NOTE]
 > Подробные сведения о быстрой настройке собраний и событий Teams на разных платформах см. в статье [Возможности Teams на разных платформах](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
@@ -178,7 +178,7 @@ Microsoft enables you to enhance meeting experiences by integrating and using me
 
 Пользователям, организующим, планирующим и проводящим собрания, вебинары или трансляции, потребуется одна из лицензий Microsoft 365, перечисленных в статье [Описание службы Microsoft Teams](/office365/servicedescriptions/teams-service-description) Если вы уже используете Teams, возможно, у вас есть лицензия, необходимая для организации и проведения собраний, вебинаров и трансляций.
 
-Сведения о лицензировании Teams Premium см. в разделе [Лицензирование Teams Premium](teams-add-on-licensing/licensing-enhance-teams.md).
+Сведения о лицензировании Teams премиум см. в разделе [лицензирование Teams премиум](teams-add-on-licensing/licensing-enhance-teams.md).
 
 Чтобы пользователи могли подключиться к собранию по телефону, необходимо настроить аудиоконференции. Дополнительные сведения об аудиоконференциях см. в статье [Аудиоконференции в Teams](deploy-audio-conferencing-teams-landing-page.md).
 

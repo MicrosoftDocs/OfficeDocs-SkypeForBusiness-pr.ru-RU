@@ -9,6 +9,7 @@ ms.service: msteams
 ms.collection:
 - M365-collaboration
 - m365initiative-meetings
+- highpri
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -16,12 +17,12 @@ ms.reviewer: mikedav
 description: Узнайте, как назначать пользователям лицензии на надстройки Teams для таких возможностей, как аудиоконференции, телефонная система и планы звонков.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 60bde63ab3cc499c022ef2d23b669b543d6f5dd9
-ms.sourcegitcommit: 0d97dc6616b3d633564409e39c08311af1522705
+ms.openlocfilehash: 162169bd3aa7a1641133e8729d4872f8547b58ed
+ms.sourcegitcommit: ca4d1011f3d62af203145431f0b19065ad81601b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/14/2022
-ms.locfileid: "69392089"
+ms.lasthandoff: 01/13/2023
+ms.locfileid: "69799935"
 ---
 # <a name="assign-teams-add-on-licenses-to-users"></a>Назначение пользователям лицензий на надстройки Teams
 
@@ -38,7 +39,7 @@ ms.locfileid: "69392089"
 
 - Если вы используете подключение к локальной телефонной сети общего пользования (ТСОП) для пользователей, необходимо только назначить лицензию на Телефонная система стандартная Teams. Не назначайте лицензию на план звонков.
 
-- После назначения Майкрософт план звонков пользователю может потребоваться до 24 часов, прежде чем он увидит панель набора в клиенте Teams. Если панель набора номера не отображается в 24 часа, проверьте [конфигурацию панели набора.](../dial-pad-configuration.md) При необходимости вы также можете [обратиться в службу поддержки](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
+- После назначения плана звонков Майкрософт пользователю может потребоваться до 24 часов, прежде чем он увидит панель набора в клиенте Teams. Если панель набора номера не отображается в 24 часа, проверьте [конфигурацию панели набора.](../dial-pad-configuration.md) При необходимости вы также можете [обратиться в службу поддержки](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
 - Если вы не приобрели правильное количество лицензий, вы получите сообщение об ошибке. Если вам нужно приобрести дополнительные лицензии на план звонков, выберите вариант, чтобы приобрести больше.
 
@@ -125,11 +126,11 @@ ms.locfileid: "69392089"
 
 | Наименование товара| Наименование товарной единицы |
 |--------------|---------------|
-| Майкрософт корпоративный E5 (с телефонной системой) | ENTERPRISEPREMIUM |
-| Майкрософт Enterprise E5 (без аудиоконференций) | ENTERPRISEPREMIUM_NOPSTNCONF |
-| Майкрософт Enterprise E5 (с аудиоконференциями) | ENTERPRISEPREMIUM |
-| Майкрософт Корпоративный E3 | ENTERPRISEPACK |
-| Майкрософт Enterprise E1 | STANDARDPACK |
+| Microsoft Enterprise E5 (с телефонной системой) | ENTERPRISEPREMIUM |
+| Microsoft Enterprise E5 (без аудиоконференций) | ENTERPRISEPREMIUM_NOPSTNCONF |
+| Microsoft Enterprise E5 (с аудиоконференциями) | ENTERPRISEPREMIUM |
+| Microsoft Enterprise E3 | ENTERPRISEPACK |
+| Microsoft Enterprise E1 | STANDARDPACK |
 | Microsoft 365 бизнес базовый | O365_BUSINESS_ESSENTIALS|
 | Microsoft 365 бизнес стандарт | O365_BUSINESS_PREMIUM|
 | Microsoft 365 бизнес | SPB|
@@ -148,8 +149,8 @@ ms.locfileid: "69392089"
 | Комнаты Microsoft Teams базовый без аудиоконференций | Microsoft_Teams_Rooms_Basic_without_Audio_Conferencing |
 | Комнаты Microsoft Teams Pro | Microsoft_Teams_Rooms_Pro |
 | Комнаты Microsoft Teams Pro без аудиоконференций | Microsoft_Teams_Rooms_Pro_without_Audio_Conferencing |
-| Общие устройства Майкрософт Teams | MCOCAP |
-| Майкрософт Teams Premium | Microsoft_Teams_Premium |
+| Общие устройства Microsoft Teams | MCOCAP |
+| Microsoft Teams премиум | Microsoft_Teams_Premium |
 
 ## <a name="related-content"></a>Связанное содержимое
 
