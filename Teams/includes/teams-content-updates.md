@@ -3,6 +3,42 @@
 
 
 
+## <a name="week-of-january-09-2023"></a>Неделя с 9 января 2023 г.
+
+
+| Дата публикации |Название статьи | Изменение |
+|------|------------|--------|
+| 1/9/2023 | [Прекращение Бесплатная версия Microsoft Teams (классическая) для вашей организации](/MicrosoftTeams/teams-add-on-licensing/remove-assign-free-licenses) | Добавлено |
+| 1/9/2023 | [Получение номеров телефонов для пользователей](/MicrosoftTeams/getting-phone-numbers-for-your-users) | Изменено |
+| 1/9/2023 | [Получение номеров телефонов служб для тарифных планов](/MicrosoftTeams/getting-service-phone-numbers) | Изменено |
+| 1/9/2023 | [Управление номерами телефонов для плана звонков](/MicrosoftTeams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization) | Изменено |
+| 1/9/2023 | [Отправка заказа на перенос номера вручную](/MicrosoftTeams/phone-number-calling-plans/manually-submit-port-order) | Изменено |
+| 1/9/2023 | [Перенос номеров телефонов в Microsoft Teams](/MicrosoftTeams/phone-number-calling-plans/transfer-phone-numbers-to-teams) | Изменено |
+| 1/10/2023 | [Отчеты об истории автосекретаря и очереди вызовов для GCC High и DoD](/MicrosoftTeams/aa-cq-cqd-historical-reports-v163) | Изменено |
+| 1/10/2023 | [Обновленные отчеты об истории автосекретаря и очереди вызовов](/MicrosoftTeams/aa-cq-cqd-historical-reports) | Изменено |
+| 1/10/2023 | [Настройка автосекретаря для Microsoft Teams](/MicrosoftTeams/create-a-phone-system-auto-attendant-smb) | Изменено |
+| 1/10/2023 | [Настройка автосекретаря Microsoft Teams](/MicrosoftTeams/create-a-phone-system-auto-attendant) | Изменено |
+| 1/10/2023 | [Создание очереди вызовов Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue-smb) | Изменено |
+| 1/10/2023 | [Создание очереди звонков в Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | Изменено |
+| 1/10/2023 | [Управление учетными записями ресурсов в Teams](/MicrosoftTeams/manage-resource-accounts) | Изменено |
+| 1/10/2023 | [Конфигурация кодировщика для потоковой передачи в Microsoft Teams](/MicrosoftTeams/teams-encoder-configuration) | Добавлено |
+| 1/10/2023 | [Настройка кодировщика для потоковой передачи в Microsoft Teams](/MicrosoftTeams/teams-encoder-setup) | Добавлено |
+| 1/10/2023 | [Создание потока в Microsoft Teams](/MicrosoftTeams/teams-stream-create-event) | Добавлено |
+| 1/10/2023 | [Масштабирование доставки видео в Microsoft Teams](/MicrosoftTeams/teams-stream-ecdn) | Добавлено |
+| 1/10/2023 | [Обзор кодировщика для потоковой передачи в Microsoft Teams](/MicrosoftTeams/teams-stream-overview) | Добавлено |
+| 1/10/2023 | [Устранение неполадок потоковой трансляции в Microsoft Teams](/MicrosoftTeams/teams-stream-troubleshooting) | Добавлено |
+| 1/10/2023 | [Подготовка к трансляциям в Microsoft Teams](/MicrosoftTeams/teams-live-events/set-up-for-teams-live-events) | Изменено |
+| 1/10/2023 | [Что такое трансляции Microsoft Teams?](/MicrosoftTeams/teams-live-events/what-are-teams-live-events) | Изменено |
+| 1/11/2023 | [Использование шаблонов команд для здравоохранения](/MicrosoftTeams/expand-teams-across-your-org/healthcare/healthcare-templates-admin-console) | Изменено |
+| 1/11/2023 | [Использование шаблонов финансовых команд](/MicrosoftTeams/financial-teams-templates-in-the-admin-console) | Изменено |
+| 1/11/2023 | [Начало работы с шаблонами команд в Центре администрирования Teams](/MicrosoftTeams/get-started-with-teams-templates-in-the-admin-console) | Изменено |
+| 1/11/2023 | [Начало работы с шаблонами команд производства в Центре администрирования](/MicrosoftTeams/manufacturing-teams-templates-in-the-admin-console) | Изменено |
+| 1/11/2023 | [Использование шаблонов команд для некоммерческих организаций](/MicrosoftTeams/team-templates-nonprofit) | Изменено |
+| 1/11/2023 | [Политики звонков в Microsoft Teams: функции звонков и переадресации звонков](/MicrosoftTeams/teams-calling-policy) | Изменено |
+| 1/13/2023 | [Управление устройствами в Microsoft Teams](/MicrosoftTeams/devices/device-management) | Изменено |
+| 1/13/2023 | [Управление комнатами Microsoft Teams](/MicrosoftTeams/rooms/rooms-manage) | Изменено |
+
+
 ## <a name="week-of-january-02-2023"></a>Неделя с 2 января 2023 г.
 
 
@@ -52,39 +88,3 @@
 | 12/16/2022 | [Развертывание Комнаты Microsoft Teams на Android](/MicrosoftTeams/devices/collab-bar-deploy) | Изменено |
 | 12/16/2022 | [Удаленное обновление устройств Microsoft Teams](/MicrosoftTeams/devices/remote-update) | Изменено |
 | 12/16/2022 | [Комнаты Microsoft Teams безопасности Windows](/MicrosoftTeams/rooms/security-windows) | Изменено |
-
-
-## <a name="week-of-december-05-2022"></a>Неделя с 5 декабря 2022 г.
-
-
-| Дата публикации |Название статьи | Изменение |
-|------|------------|--------|
-| 12/5/2022 | [Управление приложением Bookings в Microsoft Teams](/MicrosoftTeams/bookings-app-admin) | Изменено |
-| 12/5/2022 | [Настройка лобби собраний Microsoft Teams для конфиденциальных собраний](/MicrosoftTeams/configure-lobby-sensitive-meetings) | Добавлено |
-| 12/5/2022 | [Настройка собраний Teams с базовой защитой](/MicrosoftTeams/configure-meetings-baseline-protection) | Добавлено |
-| 12/5/2022 | [Настройка собраний Teams с защитой для высоко конфиденциальных данных](/MicrosoftTeams/configure-meetings-highly-sensitive-protection) | Добавлено |
-| 12/5/2022 | [Настройка собраний Teams с защитой конфиденциальных данных](/MicrosoftTeams/configure-meetings-sensitive-protection) | Добавлено |
-| 12/5/2022 | [Настройка собраний Teams с тремя уровнями защиты](/MicrosoftTeams/configure-meetings-three-tiers-protection) | Добавлено |
-| 12/5/2022 | [Создание пользовательского шаблона собрания в Microsoft Teams](/MicrosoftTeams/create-custom-meeting-template) | Добавлено |
-| 12/5/2022 | [Настраиваемые фоны собраний для собраний Teams](/MicrosoftTeams/custom-meeting-backgrounds) | Добавлено |
-| 12/5/2022 | [Обзор пользовательских шаблонов собраний в Microsoft Teams](/MicrosoftTeams/custom-meeting-templates-overview) | Добавлено |
-| 12/5/2022 | [Требовать сквозное шифрование для конфиденциальных собраний Teams](/MicrosoftTeams/end-to-end-encrypted-meetings) | Добавлено |
-| 12/5/2022 | [Microsoft Teams премиум — обзор для администраторов](/MicrosoftTeams/enhanced-teams-experience) | Добавлено |
-| 12/5/2022 | [Управление чатом для конфиденциальных собраний Teams](/MicrosoftTeams/manage-chat-sensitive-meetings) | Добавлено |
-| 12/5/2022 | [Управление презентацией собраний для конфиденциальных собраний Teams](/MicrosoftTeams/manage-meeting-presentation-experience) | Добавлено |
-| 12/5/2022 | [Управление параметрами записи собраний Microsoft Teams для конфиденциальных собраний](/MicrosoftTeams/manage-meeting-recording-options) | Добавлено |
-| 12/5/2022 | [Управление шаблонами собраний в Microsoft Teams](/MicrosoftTeams/manage-meeting-templates) | Добавлено |
-| 12/5/2022 | [Управление приложением Виртуальные встречи в Microsoft Teams](/MicrosoftTeams/manage-virtual-appointments-app) | Добавлено |
-| 12/5/2022 | [Управление общими политиками собраний](/MicrosoftTeams/meeting-policies-in-teams-general) | Изменено |
-| 12/5/2022 | [Совместное использование шаблонов собраний Teams, меток конфиденциальности и политик администрирования для конфиденциальных собраний](/MicrosoftTeams/meeting-templates-sensitivity-labels-policies) | Добавлено |
-| 12/5/2022 | [Темы собраний для собраний Teams](/MicrosoftTeams/meeting-themes) | Добавлено |
-| 12/5/2022 | [Собрания, вебинары и трансляции](/MicrosoftTeams/quick-start-meetings-live-events) | Изменено |
-| 12/5/2022 | [Настройка вебинаров](/MicrosoftTeams/set-up-webinars) | Изменено |
-| 12/5/2022 | [лицензирование Microsoft Teams премиум](/MicrosoftTeams/teams-add-on-licensing/licensing-enhance-teams) | Добавлено |
-| 12/5/2022 | [Лицензии на надстройки Microsoft Teams](/MicrosoftTeams/teams-add-on-licensing/microsoft-teams-add-on-licensing) | Изменено |
-| 12/5/2022 | [Требовать подложку для конфиденциальных собраний Teams](/MicrosoftTeams/watermark-meeting-content-video) | Добавлено |
-| 12/7/2022 | [Руководство по быстрому запуску Microsoft Teams базовый для малого бизнеса](/MicrosoftTeams/get-started-with-teams-essentials) | Изменено |
-| 12/7/2022 | [Управление Бесплатная версия Microsoft Teams (классическая)](/MicrosoftTeams/manage-freemium) | Изменено |
-| 12/7/2022 | [Обязательные мобильные диагностические данные для Microsoft Teams](/MicrosoftTeams/policy-control-diagnostic-data-mobile) | Изменено |
-| 12/7/2022 | [Обновление Бесплатная версия Microsoft Teams (классическая) до подписки](/MicrosoftTeams/upgrade-freemium) | Изменено |
-| 12/8/2022 | [Использование телеметрии в режиме реального времени для устранения неполадок с качеством собраний](/MicrosoftTeams/use-real-time-telemetry-to-troubleshoot-poor-meeting-quality) | Изменено |
