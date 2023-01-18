@@ -28,12 +28,12 @@ adobe-target-activity: DocsExp–480823–A/B–Docs/TeamsSteps–HowToTabs–FY
 adobe-target-experience: Experience B
 adobe-target-content: ./create-a-phone-system-call-queue-experiment
 description: Узнайте, как настроить очереди звонков в Microsoft Teams. Очереди звонков предоставляют приветственное сообщение, хранение музыки, перенаправление звонков и другие функции.
-ms.openlocfilehash: 4b12b1e89b11902299f973a97bdace44a841029e
-ms.sourcegitcommit: ae687f530d5505b96df7cb7ef4da3a36bd9afd29
+ms.openlocfilehash: b7bb107dc87ababd9c514655521525b6997fac29
+ms.sourcegitcommit: 95a56dab4e30f7ad6615ebd4a4a0f61996fdc20f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/10/2023
-ms.locfileid: "69763570"
+ms.lasthandoff: 01/17/2023
+ms.locfileid: "69812726"
 ---
 # <a name="create-a-call-queue-in-microsoft-teams"></a>Создание очереди звонков в Microsoft Teams
 
@@ -400,10 +400,10 @@ Teams предоставляет музыку по умолчанию вызыв
 2. Приложение Microsoft Teams для iPhone, приложение Microsoft Teams для Android.
 3. Если выбрать самый длительный простой для метода маршрутизации агента, автоматически будет включена маршрутизация на основе присутствия.
 4. Невозможно задать порядок вызова агентов.
-5. Режим конференции не поддерживается, если телефонные звонки направляются в очередь из шлюза прямой маршрутизации, который включен для маршрутизации на основе расположения.
+5. Режим конференции не поддерживается, если телефонные звонки направляются в очередь из шлюза прямой маршрутизации, который включен для маршрутизации Location-Based. Сведения о реализации очереди звонков с Location-Based маршрутизации см. в статье [Голосовые приложения (автосекретарь или очередь вызовов).](location-based-routing-plan.md#inbound-calls-through-voice-apps-auto-attendant-or-call-queue)
 6. Телефонная система Microsoft Teams только система.
 7. На странице Портала параметров пользователя по адресу [https://aka.ms/vmsettings](https://aka.ms/vmsettings).
-8. Поддерживаются только общедоступные каналы.
+8. Поддерживаются только стандартные каналы.
 9. Автосекретари и очереди вызовов не могут передавать вызовы между методами подключения по ТСОП.
 10. Для GCCH/DOD доступно только на портале параметров пользователей по адресу:
 - GCCH: [https://dialin.cpc.gov.teams.microsoft.us/usp](https://dialin.cpc.gov.teams.microsoft.us/usp)

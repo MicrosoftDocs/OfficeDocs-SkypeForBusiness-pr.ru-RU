@@ -13,12 +13,12 @@ ms.collection:
 description: Узнайте о последних изменениях в Teams PowerShell.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 29fcd5c5c9f12ae4d7ab9fe965ead62bd8f89046
-ms.sourcegitcommit: 1fdf109a7a99b113ffbe77d62acb8bbb0107dfed
+ms.openlocfilehash: 009805fd9fd39884762effdb4009e16a594028ba
+ms.sourcegitcommit: 95a56dab4e30f7ad6615ebd4a4a0f61996fdc20f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/16/2022
-ms.locfileid: "69036555"
+ms.lasthandoff: 01/17/2023
+ms.locfileid: "69812706"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Заметки о выпуске Microsoft Teams PowerShell
 
@@ -31,6 +31,7 @@ ms.locfileid: "69036555"
 
 | Дата | Версия | Обновления |
 |------- | -------------------- | ------------------------------ |
+| Январь 2023 г. | [4.9.2-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/4.9.2-preview) |<li>Выпуски Get-CsSdgBulkSignInRequestStatus & New-CsSdgBulkSignInRequest командлетов в закрытой предварительной версии.</li><li>Добавляет параметр Certificate в Connect-MicrosoftTeams.</li><li>Добавляет параметр WelcomeTextToSpeechPrompt в [New\|Set]-CsCallQueue.</li><li>Устранены проблемы с вводом конвейера для командлетов Test-CsEffectiveTenantDialPlan & Test-CsVoiceNormalizationRule.</li>
 | Ноябрь 2022 г. | [4.9.1](https://www.powershellgallery.com/packages/MicrosoftTeams/4.9.1) |<li>Выпуск поддержки проверки подлинности на основе приложений в Connect-MicrosoftTeams в общедоступной версии. Дополнительные сведения см. в разделе [Проверка подлинности на основе приложений в модуле PowerShell Teams](teams-powershell-application-authentication.md).</li><li>Содержит новую реализацию [New\|Get Set\|\|Remove]-CsTeamsChannelsPolicy и [New\|Get Set\|\|Remove]-CsTeamsUpdateManagementPolicy. Функциональность остается той же, что и предыдущая реализация.</li><li>Добавляет параметр UseNewTeamsClient в TeamsUpdateManagementPolicy.</li><li>Добавляет параметр EnablePrivateTeamDiscovery в TeamsChannelsPolicy.</li><li>Устранены проблемы, связанные с не обновляющимся маркером проверки подлинности для некоторых командлетов политики.</li><li>Устранены проблемы, из-за которых для некоторых командлетов был нарушен формат отображения.</li><li>Добавляет атрибуты SipProxyAddress, TeamsMediaLoggingPolicy, CountryAbbreviation, UserValidationErrors и WhenCreated в Get-CsOnlineUser выходные данные при выполнении без параметра -Identity. Из этих атрибутов CountryAbbreviation, UserValidationErros и WhenCreated пока не будут отображаться значения. Они будут постепенно развертываться. Дополнительные сведения см. в [разделе Get-CsOnlineUser](/powershell/module/skype/get-csonlineuser).</li><li>Исправление Add-TeamChannelUser & Remove-TeamChannelUser принимать имя участника-пользователя для параметра -User для управления внешними участниками в общем канале.</li>
 | Октябрь 2022 г. | [4.9.0](https://www.powershellgallery.com/packages/MicrosoftTeams/4.9.0) |<li>Выпуски [Get\|Set]-Командлеты CsTeamsEducationConfiguration в общедоступной версии.</li><li>Содержит новую реализацию [New\|Get Set\|\|Remove]-CsTeamsFeedbackPolicy, [New\|Get Set\|\|Remove]-CsTeamsMessagingPolicy, [New\|Get Set\|\|Remove]-CsTeamsMeetingPolicy и [New\|Get Set\|\|Remove]-CsOnlineVoicemailPolicy. Функциональность остается той же, что и предыдущая реализация.</li><li>Добавляет параметры ExplicitRecordingConsent, ForceStreamingAttendeeMode в TeamsMeetingPolicy.</li><li>Добавляет параметры Description, PreambleAudioFile, PostambleAudioFile, PreamblePostambleMandatory в OnlineVoicemailPolicy.</li><li>Добавляет параметр AllowChatWithGroup в TeamsMessagingPolicy.</li><li>Добавляет параметр EnableFeatureSuggestions в TeamsFeedbackPolicy.</li><li>Выпуски Update-CsTeamsShiftsConnectionInstance командлета.</li>
 | Октябрь 2022 г. | [4.8.1-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/4.8.1-preview) |<li>Содержит новую реализацию [New\|Get Set\|\|Remove]-CsTeamsMessagingPolicy, [New\|Get Set\|\|Remove]-CsTeamsMeetingPolicy и [New\|Get Set\|\|Remove]-CsOnlineVoicemailPolicy. ПРИМЕЧАНИЕ. В настоящее время эти командлеты работают только с powershell.exe. Они не работают для pwsh.exe. Это будет исправлено в следующем выпуске общедоступной версии.</li><li>Добавляет параметры ExplicitRecordingConsent, ForceStreamingAttendeeMode в TeamsMeetingPolicy.</li><li>Добавляет параметры Description, PreambleAudioFile, PostambleAudioFile, PreamblePostambleMandatory в OnlineVoicemailPolicy.</li><li>Добавляет параметры AllowChatWithGroup и EnableFeatureSuggestions в TeamsMessagingPolicy.</li><li>Выпуски Update-CsTeamsShiftsConnectionInstance командлета.</li>

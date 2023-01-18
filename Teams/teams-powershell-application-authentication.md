@@ -9,15 +9,15 @@ audience: admin
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-description: Сведения о проверке подлинности на основе приложений в модуле PowerShell Teams, используемом для администрирования Майкрософт Teams.
+description: Сведения о проверке подлинности на основе приложений в модуле Teams PowerShell, используемом для администрирования Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 04cc2e3c069f30e44dd0c62a42be42fd1cce16b7
-ms.sourcegitcommit: aa398950cc2f10b268c72a2b25caa0cf893e8230
+ms.openlocfilehash: 60d9bf64233db3f5e615c0904c6eb376f187266c
+ms.sourcegitcommit: 95a56dab4e30f7ad6615ebd4a4a0f61996fdc20f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/08/2022
-ms.locfileid: "69307954"
+ms.lasthandoff: 01/17/2023
+ms.locfileid: "69812846"
 ---
 # <a name="application-based-authentication-in-teams-powershell-module"></a>Проверка подлинности на основе приложений в модуле PowerShell Teams
 
@@ -47,6 +47,13 @@ ms.locfileid: "69307954"
   Connect-MicrosoftTeams -CertificateThumbprint "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" -ApplicationId "00000000-0000-0000-0000-000000000000" -TenantId "YYYYYYYY-YYYY-YYYY-YYYY-YYYYYYYYYYYY"
   ```
   При использовании параметра CertificateThumbprint сертификат должен быть установлен на компьютере, где выполняется команда. Сертификат должен быть установлен в хранилище сертификатов пользователя.
+  
+- Подключение с помощью объекта сертификата:
+
+  ```powershell
+  Connect-MicrosoftTeams -Certificate <%X509Certificate2 object%> -ApplicationId "00000000-0000-0000-0000-000000000000" -TenantId "YYYYYYYY-YYYY-YYYY-YYYY-YYYYYYYYYYYY"
+  ```
+  При использовании параметра Certificate сертификат не требуется устанавливать на компьютере, где выполняется команда. Сертификат можно удаленно хранить & получить при выполнении скрипта. Параметр Certificate доступен в модуле Teams PowerShell версии 4.9.2-preview или более поздней.
   
 - Подключение с помощью маркеров доступа:
   
@@ -91,8 +98,8 @@ ms.locfileid: "69307954"
 
 1. Регистрация приложения в Azure AD
 2. Назначение приложению разрешений API
-   - Для \*командлетов -Cs требуется `Organization.Read.All`Майкрософт API Graph разрешение .
-   - Для командлетов, отличных \*от Cs, Майкрософт API Graph необходимы `Organization.Read.All`разрешения , , `User.Read.All`, `AppCatalog.ReadWrite.All``Group.ReadWrite.All`, `TeamSettings.ReadWrite.All`, `Channel.Delete.All`, `ChannelSettings.ReadWrite.All`, . `ChannelMember.ReadWrite.All`  
+   - Для \*командлетов -Cs требуется разрешение Microsoft API Graph .`Organization.Read.All`
+   - Для командлетов, отличных \*от Cs, требуются `Organization.Read.All`разрешения Microsoft API Graph: , , `User.Read.All`, `Group.ReadWrite.All``AppCatalog.ReadWrite.All`, `TeamSettings.ReadWrite.All`, `Channel.Delete.All`, `ChannelSettings.ReadWrite.All`, . `ChannelMember.ReadWrite.All`  
 3. Создание самозаверяющего сертификата
 4. Присоединение сертификата к приложению Azure AD
 5. Назначение [Azure AD ролей](/microsoftteams/using-admin-roles#teams-roles-and-capabilities) приложению
