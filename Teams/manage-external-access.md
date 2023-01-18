@@ -22,12 +22,12 @@ description: Ваш администратор Teams или ИТ-админис�
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: d3396c9982cfe4de9eacc085bfe3a572fdc4b667
-ms.sourcegitcommit: aef1ab47fb9cb4502cb49bc3c7ffafcd62e54c82
+ms.openlocfilehash: c405bdfb0690e0a34e7c3f92bb2e276780eb4ebe
+ms.sourcegitcommit: 40cba40b1babdb3fbfc1a416b7eeb0118f8353df
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/02/2022
-ms.locfileid: "69242433"
+ms.lasthandoff: 01/18/2023
+ms.locfileid: "69820354"
 ---
 # <a name="manage-external-meetings-and-chat-in-microsoft-teams"></a>Управление внешними собраниями и чатом в Microsoft Teams
 
@@ -48,6 +48,9 @@ ms.locfileid: "69242433"
 Политики внешнего доступа содержат элементы управления как на уровне организации, так и на уровне пользователя. При отключении политики на уровне организации она будет отключена для всех пользователей независимо от их параметров. По умолчанию все параметры внешнего доступа включены.
 
 Центр администрирования Teams управляет внешним доступом на уровне организации. Большинство параметров (за исключением ограничений доменов) доступны на уровне пользователя с помощью PowerShell. Подробнее см. далее в разделе [Использование PowerShell](#using-powershell).
+
+> [!NOTE]
+> Для внешнего доступа между различными облачными средами (например, Microsoft 365 и Office 365 для государственных организаций) требуются внешние записи DNS для Teams. Дополнительные сведения см. в разделе [Внешние записи DNS, необходимые для Teams](/microsoft-365/enterprise/external-domain-name-system-records#external-dns-records-required-for-teams).
 
 > [!NOTE]
 > If you turn off external access in your organization, people outside your organization can still join meetings through anonymous join. To learn more, see [Manage meeting settings in Teams](meeting-settings-in-teams.md).
