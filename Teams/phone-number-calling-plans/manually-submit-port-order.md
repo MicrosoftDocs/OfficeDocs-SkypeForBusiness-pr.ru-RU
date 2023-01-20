@@ -18,16 +18,16 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Узнайте, как вручную отправить запрос на перенос.
-ms.openlocfilehash: a1a333b70f717e83df5743e2532bf0092c262054
-ms.sourcegitcommit: 1398c778e46b0d81c9710cd70d3818a2b7af995a
+ms.openlocfilehash: f00f8e31055e20dc39dbee9a5809adad566bc4b0
+ms.sourcegitcommit: fd56fb16ed60b027d3f8de96711d143825f9c184
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/09/2023
-ms.locfileid: "69749035"
+ms.lasthandoff: 01/20/2023
+ms.locfileid: "69835472"
 ---
 # <a name="manually-submit-a-port-order"></a>Отправка заказа на перенос номера вручную
 
-Для большинства клиентов заказы на перенос можно выполнить в Центре администрирования Microsoft Teams. Инструкции по этой процедуре см. в статье [Перенос номеров телефонов в Microsoft Teams](transfer-phone-numbers-to-teams.md).
+Для большинства клиентов заказы на перенос 999 или менее телефонных номеров можно выполнить в Центре администрирования Microsoft Teams. Инструкции по этой процедуре см. в статье [Перенос номеров телефонов в Microsoft Teams](transfer-phone-numbers-to-teams.md).
 
 В некоторых ситуациях может потребоваться вручную отправить запрос на обслуживание, чтобы получить номера телефонов, передать номера телефонов, освободить номера телефонов или изменить адреса. Сведения о том, что требуется для каждой страны и региона, или дополнительные сведения о переносе номеров см. в статье [Управление номерами телефонов для вашей организации](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
 
@@ -40,6 +40,9 @@ ms.locfileid: "69749035"
 1. Скачайте [LOA](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) для своей страны или региона.
 2. Заполните форму.
 4. Отправьте его в [службу технической поддержки TNS](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md).
+
+> [!NOTE]
+> Дополнительные сведения о loAs для переноса и переноса существующих номеров телефонов, а также дополнительные требования к документации см. в разделе [Управление номерами телефонов для плана звонков](/microsoftteams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization).
 
 ## <a name="what-else-should-you-know-about-number-porting"></a>Что еще следует знать о переносе номеров
 

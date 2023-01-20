@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Узнайте, как получать новые, переносить или переносить существующие номера для Teams, а также как отображать изменения для пользователей.
-ms.openlocfilehash: b4bdbc686a26bf179fbe85d2a19ca5b82c19b324
-ms.sourcegitcommit: 1398c778e46b0d81c9710cd70d3818a2b7af995a
+ms.openlocfilehash: d92d48f95e620767148d3917a78d1e72c87f0645
+ms.sourcegitcommit: fd56fb16ed60b027d3f8de96711d143825f9c184
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/09/2023
-ms.locfileid: "69749065"
+ms.lasthandoff: 01/20/2023
+ms.locfileid: "69835492"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>Получение телефонных номеров для пользователей
 
@@ -78,6 +78,13 @@ ms.locfileid: "69749065"
 
 - Если вам нужно перенести более 999 телефонных номеров, вы можете [вручную отправить заказ на перенос](phone-number-calling-plans/manually-submit-port-order.md) или см. статью [Управление номерами телефонов для вашей организации,](/microsoftteams/manage-phone-numbers-for-your-organization) чтобы скачать правильное письмо о авторизации (LOA). Заполните и подпишите документы LOA, а затем обратитесь [в службу технической поддержки TNS](manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) для вашего региона.
 
+> [!NOTE]
+> Дополнительные сведения о loAs для переноса и переноса существующих номеров телефонов, а также дополнительные требования к документации см. в разделе [Управление номерами телефонов для плана звонков](/microsoftteams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization).
+>
+>Чтобы перенести или перенести номера телефонов 999 или меньше для пользователей, отправьте заполненные и подписанные LOA в Центр администрирования Microsoft Teams для дальнейшей обработки. 
+>
+> Чтобы перенести более 999 телефонных номеров или если у вас возникли проблемы с процессом переноса в Центре администрирования Microsoft Teams, вы можете [вручную отправить заказ на перенос в службу технической](/microsoftteams/phone-number-calling-plans/manually-submit-port-order) поддержки TNS для вашего региона.
+
 ## <a name="view-the-phone-numbers-for-your-organization"></a>Просмотр номеров телефонов для вашей организации
 
 **С помощью Центра администрирования Microsoft Teams**
@@ -87,9 +94,6 @@ ms.locfileid: "69749065"
 ## <a name="assign-phone-numbers-to-users"></a>Назначение номеров телефонов пользователям
 
 После получения номеров телефонов необходимо назначить номер каждому из пользователей. Дополнительные сведения см. в статье [Назначение, изменение или удаление номера телефона для пользователя](./assign-change-or-remove-a-phone-number-for-a-user.md).
-
-> [!NOTE]
-> Если вам нужно получить больше номеров телефонов, [обратитесь в службу поддержки по бизнес-продуктам — Администратор справке](/microsoft-365/admin/contact-support-for-business-products).
 
 В этом видео показано, как назначить номер телефона пользователю.
 
