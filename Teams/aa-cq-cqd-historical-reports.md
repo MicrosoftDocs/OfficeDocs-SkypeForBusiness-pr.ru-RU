@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
 description: Узнайте, как использовать обновленный отчет "Автосекретарь Teams" & отчета Power BI об истории очереди вызовов для просмотра исторических данных автосекретаря и очереди вызовов.
-ms.openlocfilehash: 0ff8e7d1b5a1b9901c5b8a5da49d67fbf8ac5275
-ms.sourcegitcommit: 95a56dab4e30f7ad6615ebd4a4a0f61996fdc20f
+ms.openlocfilehash: dad1fa07d476aa5bcfa1e39818d9d7a01b7fdc56
+ms.sourcegitcommit: 776820a6c927fafabdfad9f50654fe7648d77bf3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2023
-ms.locfileid: "69812736"
+ms.lasthandoff: 01/20/2023
+ms.locfileid: "69845916"
 ---
 # <a name="auto-attendant-and-call-queue-historical-reports"></a>Отчеты об истории автосекретаря и очереди вызовов
 
@@ -537,11 +537,9 @@ ms.locfileid: "69812736"
 
 ### <a name="preparation"></a>Подготовка
 
-Скачайте [Postman](https://www.postman.com/).
-
-Скачайте репозиторий [sync_pstn_avs-analytics](https://skype.visualstudio.com/SBS/_git/sync_pstn_avs-analytics) и распакуйте его.
-
-Импортируйте папку в Postman. 
+1. Скачайте [Postman](https://www.postman.com/).
+1. Распакуйте `sync_pstn_avs-analytics.zip` файл в [скачанных инструкциях по ZIP-файлу](#v3xx-installation).
+1. Импортируйте папку в Postman. 
 
 :::image type="content" source="media/aa-cq-historical-report-postman-01.png" alt-text="Снимок экрана: импорт завершен":::
 
@@ -555,7 +553,6 @@ ms.locfileid: "69812736"
 6. Нажмите кнопку **Сохранить**.
 
 :::image type="content" source="media/aa-cq-historical-report-postman-02.png" alt-text="Снимок экрана: настроенные поля имени пользователя, пароля и идентификатора клиента":::
-
 
 7. Выберите **Коллекции** в меню слева.
 8. Выберите **Config API Access Token — Prod** и перейдите на вкладку **Текст** .
@@ -585,7 +582,6 @@ ms.locfileid: "69812736"
 :::image type="content" source="media/aa-cq-historical-report-postman-04.png" alt-text="Снимок экрана: результат запроса с полем dataResult":::
 
 В этом случае данные будут находиться в поле dataResult в том же порядке, что и в атрибутах измерения запроса и измерений.
-
 
 ### <a name="compress-the-json-query"></a>Сжатие запроса JSON
 

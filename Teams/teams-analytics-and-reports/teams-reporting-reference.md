@@ -19,12 +19,12 @@ description: В этой статье вы узнаете об отчетах Te
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e93a34f19ecf53e05a51fe36983a9f46f741e67e
-ms.sourcegitcommit: 40cba40b1babdb3fbfc1a416b7eeb0118f8353df
+ms.openlocfilehash: 1062afeebfde89835330fbc4f367e0fccbe01513
+ms.sourcegitcommit: 776820a6c927fafabdfad9f50654fe7648d77bf3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/18/2023
-ms.locfileid: "69820324"
+ms.lasthandoff: 01/20/2023
+ms.locfileid: "69845926"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Аналитика и отчеты Microsoft Teams
 
@@ -66,6 +66,7 @@ ms.locfileid: "69820324"
 |[Отчет об использовании Виртуальные встречи Teams](/microsoft-365/frontline/virtual-appointments-usage-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)|Да|Да|Нет|Нет| Количество виртуальных встреч<br>Количество встреч bookings<br>Количество встреч, интегрированных в Электронные медицинские записи Teams (EHR)<br>Средняя продолжительность встречи<br>Среднее время ожидания посетителей в лобби<br>Время начала<br>Идентификатор собрания<br>Время ожидания в лобби<br>Duration (Длительность)<br>Статус<br>Тип продукта<br>Участники<br>Отдел<br>Отправлено SMS<br>Используется ли при встрече расширенная возможность Виртуальные встречи|
 |[Отчет о действиях Advanced Виртуальные встречи Teams](/microsoft-365/frontline/advanced-virtual-appointments-activity-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json) |Да|Да|Нет|Нет|Число пользователей, использующих расширенные возможности Виртуальные встречи<br>Число пользователей, использующих sms-уведомления<br>Число пользователей, использующих чат в лобби (скоро)<br>Количество пользователей, которые проводят встречи по запросу|
 |[Отчет Виртуальные встречи соединителя Teams EHR](/microsoft-365/frontline/ehr-connector-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json) |Да|Да|Нет|Нет| Время начала<br>Duration (Длительность)<br>Primary (имя организатора собрания)<br>Адрес электронной почты основного пользователя (адрес электронной почты организатора собрания)<br>Отдел<br>Служители<br>Время ожидания в лобби<br>Находится ли встреча в пределах лимита на выделение|
+|[Отчет об использовании и производительности Walkie Talkie](walkie-talkie-usage-report.md) |Да|Да|Нет|Нет| Метрики включают количество выполненных и полученных передач от push-to-talk (PTT), активность канала, длительность передачи, а также сведения об устройстве и участниках.|
 [!INCLUDE [teams-reports-definitions](../includes/teams-reports-definitions.md)]
 
 ## <a name="make-the-user-specific-data-anonymous"></a>Сделать пользовательские данные анонимными
