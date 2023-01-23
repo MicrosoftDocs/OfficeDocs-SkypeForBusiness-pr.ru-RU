@@ -19,12 +19,12 @@ ms.custom:
 - admindeeplinkTEAMS
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f2d0d916028a026d7706fd317ba25d16af213a81
-ms.sourcegitcommit: 55d2f515f5040b4c083f529d7b818c84d42378a0
+ms.openlocfilehash: 32ef76aeff228bc9386917cb2214965942b8be4e
+ms.sourcegitcommit: 1f4a0b7cf03f63438bb37668d053853494c92168
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/22/2022
-ms.locfileid: "69147486"
+ms.lasthandoff: 01/23/2023
+ms.locfileid: "69948576"
 ---
 # <a name="set-up-parent-connection-in-microsoft-teams-for-education"></a>Настройка родительского подключения в Microsoft Teams для образования
 
@@ -36,8 +36,8 @@ ms.locfileid: "69147486"
 
 Ниже приведены некоторые ресурсы, которыми ИТ-администраторы могут поделиться с опекунами и преподавателями о том, как приступить к работе с родительским подключением.
 
-- Инструкции по настройке опекунов см. [в статье Подключение с преподавателями в Teams](https://support.microsoft.com/topic/connect-with-educators-in-teams-ec2430c3-952a-4ba4-9891-1d1cab577960).
-- Инструкции по настройке преподавателей см. [в статье Взаимодействие с опекунами в Microsoft Teams](https://support.microsoft.com/topic/communicate-with-guardians-in-microsoft-teams-01471ecd-eb5d-4eda-9c5d-0064d672960e?ui=en-us&rs=en-us&ad=us).
+- Инструкции по настройке опекунов см. [в статье Взаимодействие с опекунами в Microsoft Teams](https://support.microsoft.com/topic/communicate-with-guardians-in-microsoft-teams-01471ecd-eb5d-4eda-9c5d-0064d672960e?ui=en-us&rs=en-us&ad=us).
+- Рекомендации по настройке преподавателей см. в разделе [Подключение с преподавателями в Teams](https://support.microsoft.com/topic/connect-with-educators-in-teams-ec2430c3-952a-4ba4-9891-1d1cab577960).
 
 ## <a name="benefits-of-parent-connection"></a>Преимущества родительского подключения
 
