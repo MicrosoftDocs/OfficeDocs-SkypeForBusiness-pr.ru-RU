@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: Узнайте, какие периферийные устройства и устройства USB (например, гарнитуры, динамики, веб-камеры и мониторы) сертифицированы для Microsoft Teams.
-ms.openlocfilehash: 88ea7be3fc27fadccb25cd173b0df5f7f618004f
-ms.sourcegitcommit: 1398c778e46b0d81c9710cd70d3818a2b7af995a
+ms.openlocfilehash: f8c964dddf2214540e9c384993f46c5a3d944da1
+ms.sourcegitcommit: 3056f95e9f654b78636949f43eacdde297e52c6e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/09/2023
-ms.locfileid: "69749075"
+ms.lasthandoff: 01/25/2023
+ms.locfileid: "69990394"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>Аудио- и видеоустройства USB, сертифицированные для Microsoft Teams
 
@@ -81,13 +81,27 @@ ms.locfileid: "69749075"
 
 ## <a name="certified-devices"></a>Сертифицированные устройства
 
-*Таблица обновлена за декабрь 2022 г.*
+*Таблица обновлена за январь 2023 г.*
 
 > [!NOTE]
 > Формат даты — ММ/ДД/ГГГГ.
 
 | Производитель        | Модели                                                     | Квалифицированных      | Сертифицированная программа                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|ЭПОС                 |Гарнитуры SDW 5061 с USB-ключом SDW D1 DECT              |1/20/2023       |Сертифицировано для Microsoft Teams                           |
+|ЭПОС                 |Гарнитуры SDW 5031 с USB-ключом SDW D1 DECT              |1/20/2023       |Сертифицировано для Microsoft Teams                           |
+|ЭПОС                 |Гарнитуры SDW 5011 с USB-ключом SDW D1 DECT              |1/20/2023       |Сертифицировано для Microsoft Teams                           |
+|Dell                 |Монитор P2424HEB                                           |1/18/2023       |Сертифицировано для Microsoft Teams                           |
+|Dell                 |Монитор P2724DEB                                           |1/18/2023       |Сертифицировано для Microsoft Teams                           |
+|Dell                 |Монитор P3424WEB                                           |1/18/2023       |Сертифицировано для Microsoft Teams                           |
+|Yealink              |Гарнитура BH76                                               |12/22/2022      |Сертифицировано для Microsoft Teams                           |
+|Logitech             |Камера Brio 300/301/305                                    |12/22/2022      |Сертифицировано для Microsoft Teams                           |
+|Поли                 |Гарнитуры серии UC Savi 7310 с ключом версии 1008     |12/22/2022      |Сертифицировано для Microsoft Teams                           |
+|Поли                 |Гарнитуры серии UC Savi 7320 с версией ключа 1008     |12/22/2022      |Сертифицировано для Microsoft Teams                           |
+|Yealink              |Портативная гарнитура WH62 Dual/Mono                            |12/21/2022      |Сертифицировано для Microsoft Teams                           |
+|Yealink              |Переносимая гарнитура WH63 с ключом DECT                     |12/21/2022      |Сертифицировано для Microsoft Teams                           |
+|Cisco                |Гарнитуры серии 320 (321/322)                              |12/20/2022      |Сертифицировано для Microsoft Teams                           |
+|Cisco                |Гарнитуры серии 720 (721/722)                              |12/20/2022      |Сертифицировано для Microsoft Teams                           |
 |Lenovo               |Монитор T24mv-30                                           |12/19/2022      |Сертифицировано для Microsoft Teams                           |
 |Lenovo               |Монитор T27hv-30                                           |12/19/2022      |Сертифицировано для Microsoft Teams                           |
 |Lenovo               |Телефон конференц-связи с базовым динамиком                          |12/19/2022      |Сертифицировано для Microsoft Teams                           |
@@ -97,15 +111,18 @@ ms.locfileid: "69749075"
 |ЭПОС                 |EXPAND Vision 1/S6                                         |10/13/2022      |Сертифицировано для Microsoft Teams                           |
 |Lenovo               |Go USB-C ANC In-Ear Headphones                             |9/20/2022       |Сертифицировано для Microsoft Teams                           |
 |Logi                 |Brio 500/505/501 Камеры                                   |9/14/2022       |Сертифицировано для Microsoft Teams                           |
+|Sony                 |YY2969 Earbuds                                             |9/6/2022        |Сертифицировано для Microsoft Teams                           |
 |Jabra                |Привлечение 50 II                                               |7/29/2022       |Сертифицировано для Microsoft Teams                           |
 |Jabra                |Привлечение 40 II                                               |7/29/2022       |Сертифицировано для Microsoft Teams                           |
 |Logi                 |Закрепление динамиков                                          |7/13/2022       |Сертифицировано для Microsoft Teams                           |
+|Microsoft            |Аудио-док-станция динамиков                                    |7/12/2022       |Сертифицировано для Microsoft Teams                           |
 |Dell                 |Камера WB5023                                              |6/29/2022       |Сертифицировано для Microsoft Teams                           |
 |ЭПОС                 |Гарнитура ADAPT 560 II                                       |6/22/2022       |Сертифицировано для Microsoft Teams                           |
 |ЭПОС                 |Гарнитуры серии C10/C20/C50                                |5/31/2022       |Сертифицировано для Microsoft Teams                           |
 |Jabra                |Моно/стереофоническая гарнитура Engage55                               |5/25/2022       |Сертифицировано для Microsoft Teams                           |
 |ЭПОС                 |РАЗВЕРНУТЬ динамик 40T                                    |5/24/2022       |Сертифицировано для Microsoft Teams                           | 
 |Dell                 |Монитор U3223QZ                                            |5/24/2022       |Сертифицировано для Microsoft Teams                           |
+|Microsoft            |Выступающий+                                                 |5/12/2022       |Сертифицировано для Microsoft Teams                           |
 |Поли                 |Монитор Studio P21                                         |5/12/2022       |Сертифицировано для Microsoft Teams                           |
 |Yealink              |Гарнитура UH38                                               |5/2/2022        |Сертифицировано для Microsoft Teams                           |   
 |Yealink              |Гарнитура BH72                                               |5/2/2022        |Сертифицировано для Microsoft Teams                           |

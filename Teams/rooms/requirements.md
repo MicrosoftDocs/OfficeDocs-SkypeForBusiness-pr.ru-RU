@@ -16,12 +16,12 @@ ms.collection:
 - Teams_ITAdmin_Rooms
 description: Узнайте о требованиях к поддержке Комнаты Microsoft Teams, включая выбор соответствующего устройства, микрофонов, динамиков, камер и дисплеев.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 62e1ca6b2254047a14a11cf4c4c9ffb10477a0e3
-ms.sourcegitcommit: ed7d3b12d4bfe48863de873360c2ae90bbb15530
+ms.openlocfilehash: c5b1c9adda541926b48a943f796380fa8730a4a5
+ms.sourcegitcommit: 3056f95e9f654b78636949f43eacdde297e52c6e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/30/2022
-ms.locfileid: "69194930"
+ms.lasthandoff: 01/25/2023
+ms.locfileid: "69990404"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Требования к комнатам Microsoft Teams
 
@@ -36,9 +36,9 @@ ms.locfileid: "69194930"
 - [Параметры лицензии с учетом плана: Комнаты Microsoft Teams](rooms-licensing.md)
 
 > [!NOTE]
-> Комнаты Microsoft Teams войдите в Майкрософт Teams Skype для бизнеса Server 2019 г. или Skype для бизнеса Server 2015 г. и могут присоединяться к собраниям, размещенным в любой из этих служб.
+> Комнаты Microsoft Teams войдите в Microsoft Teams Skype для бизнеса Server 2019 или Skype для бизнеса Server 2015 г. и могут присоединяться к собраниям, размещенным в любой из этих служб.
 >
-> Такие приложения, как Lync Server 2013, не поддерживаются в Комнатах Microsoft Teams. Комнаты Microsoft Teams не поддерживается в Майкрософт 365 или Office 365, управляемых средами 21Vianet или DoD.
+> Такие приложения, как Lync Server 2013, не поддерживаются в Комнатах Microsoft Teams. Комнаты Microsoft Teams не поддерживается в Microsoft 365 или Office 365, управляемых средами 21Vianet или DoD.
 >
 > Если вы используете локальный Exchange server, в комнатах Microsoft Teams необходимо использовать Exchange Server 2013 SP1 или более позднюю версию.
 
@@ -97,6 +97,7 @@ ms.locfileid: "69194930"
   |[Poly G85-T Kit с Poly Eagle Eye Director II, с Lenovo](https://www.poly.com/us/en/support/products/video-conferencing/poly-room-solutions/g85) |Core i5| 8 ГБ | 128 ГБ|
   |Консоль Poly GC8 с Lenovo Thinksmart Core|Core i5|8 ГБ|128 ГБ|
   |Консоль Poly GC8 с Dell Optiplex 7080|Core i5|8 ГБ|128 ГБ|
+  |[Консоль Poly GC8 с hp 800 G9 Compute -MTR-W](https://www.poly.com/us/en/solutions/platform/microsoft/video/teams-rooms-windows)|Core i5|8 ГБ|128 ГБ|
   |[Yealink MVC300 с Intel NUC](https://www.yealink.com/products_154.html)|Core i5|8 ГБ |128 ГБ |
   |[Yealink MVC500 с Intel NUC](https://www.yealink.com/products_126.html)|Core i5|8 ГБ |128 ГБ |
   |[Yealink MVC800 с Intel NUC](https://www.yealink.com/products_125.html)|Core i5|8 ГБ|128 ГБ|
