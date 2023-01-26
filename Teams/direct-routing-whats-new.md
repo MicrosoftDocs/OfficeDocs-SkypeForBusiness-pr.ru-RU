@@ -14,12 +14,12 @@ appliesto:
 - Microsoft Teams
 ms.collection:
 - M365-voice
-ms.openlocfilehash: 85a700faf37044c97c432707b07b6d6699c6692b
-ms.sourcegitcommit: 1f4a0b7cf03f63438bb37668d053853494c92168
+ms.openlocfilehash: 87befd2ff63fc5e3f0aa9e1c715972e5061b8fc7
+ms.sourcegitcommit: e09591a0df9848b50bfeda29650e91e9d35724af
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/23/2023
-ms.locfileid: "69948586"
+ms.lasthandoff: 01/24/2023
+ms.locfileid: "69981874"
 ---
 # <a name="whats-new-for-direct-routing"></a>Новые возможности прямой маршрутизации
 
@@ -43,7 +43,7 @@ ms.locfileid: "69948586"
 
 Чтобы предотвратить влияние на службу, выполните приведенные далее действия.
 
-- Используйте рекомендуемые подсети (52.112.0.0/14 и 52.120.0.0/14) для любых правил классификации или ACL.
+- Используйте рекомендуемые подсети (52.112.0.0/14 и 52.122.0.0/15) для любых правил классификации или ACL.
 - Прекратите использование полного доменного имени sip-all при настройке элементов управления границами сеансов для прямой маршрутизации.
 
 Дополнительные сведения см. в разделе [Планирование прямой маршрутизации](direct-routing-plan.md).

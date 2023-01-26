@@ -1,5 +1,5 @@
 ---
-title: Управление соединителями и пользовательскими соединителями Microsoft 365
+title: Управление соединителями Microsoft 365 и пользовательскими соединителями
 author: ashishguptaiitb
 ms.author: guptaashish
 manager: prkosh
@@ -7,39 +7,38 @@ ms.topic: article
 ms.service: msteams
 ms.subservice: teams-apps
 audience: admin
-ms.date: 09/01/2022
+ms.date: 01/24/2023
 ms.collection:
 - M365-collaboration
 ms.reviewer: lucarras
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Узнайте, как соединители обновляют вашу команду, часто доставляя содержимое и обновления непосредственно в канал Teams для используемых служб.
+description: Узнайте, как соединители обеспечивают обновление вашей команды, часто доставляя содержимое и обновления непосредственно в канал Teams для используемых служб.
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: fb65e7c91aa7ac0de7c8dade3a442f457d72657f
-ms.sourcegitcommit: 6e85f3f70f8488ab827ac352c0f324b6dfd4b856
+ms.openlocfilehash: bf38711da0205e7c674e769942d00d340d51f66e
+ms.sourcegitcommit: 1cb5f7129562eb2b228da23497c0e09e53da3872
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2022
-ms.locfileid: "68377007"
+ms.lasthandoff: 01/25/2023
+ms.locfileid: "69983687"
 ---
-# <a name="manage-microsoft-365-connectors-and-custom-connectors"></a>Управление соединителями и пользовательскими соединителями Microsoft 365
+# <a name="manage-microsoft-365-connectors-and-custom-connectors"></a>Управление соединителями Microsoft 365 и пользовательскими соединителями
 
-Чтобы держать вашу команду в курсе, соединители доставляют часто используемый контент и обновления служб непосредственно в канал Teams. Благодаря соединителям пользователи Teams могут получать обновления из популярных служб, таких как Trello, Wunderlist, GitHub и Azure DevOps Services. Обновления будут публиковаться непосредственно в потоке чата в команде.
+Соединители в Microsoft Teams доставляют содержимое и обновления служб непосредственно из сторонних служб в канал Teams. С помощью соединителей пользователи получают обновления из популярных служб, таких как Trello, Wunderlist, GitHub и Azure DevOps Services. Обновления публикуются непосредственно в потоке чата. Это упрощает синхронизацию всех участников и быстро получает соответствующую информацию.
 
-Соединители Microsoft 365 используются как с группами Microsoft Teams, так и с группами Microsoft 365. Они упрощают синхронизацию всех участников и быстрое получение соответствующей информации. Вы можете использовать одинаковые соединители в Microsoft Teams и Microsoft Exchange. Однако если отключить соединители, настроенные для группы Microsoft 365, это также отключает возможность создания соединителей для группы Microsoft 365.
+Соединители Microsoft 365 используются с группами Teams и Microsoft 365. Одни и те же соединители можно использовать в Teams и Microsoft Exchange. 
 
-Любой член команды может подключить свою команду к популярным облачным службам с помощью соединителей, если позволяют разрешения группы, и все члены команды будут также уведомлены о действиях этой службы. Если участник, который изначально настроил соединитель, покидает команду, соединители продолжают работать. Любой член команды с разрешениями на добавление или удаление может изменять соединители, настроенные другими участниками.
+<!--- However, if you disable any connectors configured for a Microsoft 365 group, it also disables the ability for the Microsoft 365 group to create connectors. --->
+
+Если разрешения группы разрешают это, любой член команды может добавить соединитель в команду, и все участники команды получают уведомления о действиях из этой службы. Любой член команды с разрешениями на добавление или удаление может изменять соединители, настроенные другими участниками.
 
 ## <a name="enable-or-disable-connectors-in-teams"></a>Включение и отключение соединителей в Teams
 
-Модуль Exchange Online PowerShell V2 использует современную проверку подлинности и работает с мультифакторной проверкой подлинности (MFA) для подключения ко всем средам PowerShell, связанным с Exchange, в Microsoft 365. Администраторы могут использовать Exchange Online PowerShell для отключения соединителей для всего клиента или определенного группового почтового ящика, что повлияет на всех пользователей в этом клиенте или почтовом ящике. Отключение для нескольких определенных пользователей невозможно. Кроме того, соединители по умолчанию отключены для сред облака сообщества для государственных организаций (GCC).
-
-> [!NOTE]
-> Соединители по умолчанию отключены в средах сообщества облака для государственных организаций (GCC). Чтобы включить эти параметры, установите `ConnectorsEnabled` или `ConnectorsEnabledForTeams` параметры на `$true` с помощью `SetOrganizationConfig` командлета. Подключитесь к [Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps&preserve-view=true).
+Модуль Exchange Online PowerShell версии 2 использует современную проверку подлинности и работает с многофакторной проверкой подлинности (MFA) для подключения ко всем связанным с Exchange средам PowerShell в Microsoft 365. Администраторы могут использовать Exchange Online PowerShell для отключения соединителей для всего клиента или определенного группового почтового ящика, что повлияет на всех пользователей в этом клиенте или почтовом ящике. Это невозможно отключить для нескольких конкретных пользователей.
 
 Параметр клиента переопределяет параметр группы. Например, если администратор включает соединители для группы и отключает их для клиента, соединители для группы отключаются. Чтобы включить соединитель в Teams, [подключитесь к Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps#connect-to-exchange-online-powershell-using-modern-authentication-with-or-without-mfa&preserve-view=true), используя современную проверку подлинности с MFA или без нее.
 
@@ -81,7 +80,60 @@ ms.locfileid: "68377007"
 
    :::image type="content" source="media/teams-url-updated.png" alt-text="Скриншот URL-адреса является актуальным сообщением.":::
 
+## <a name="considerations-when-using-connectors-in-teams"></a>Рекомендации по использованию соединителей в Teams
+
+* Соединители по умолчанию отключены в средах сообщества облака для государственных организаций (GCC). Чтобы включить эти параметры, установите `ConnectorsEnabled` или `ConnectorsEnabledForTeams` параметры на `$true` с помощью `SetOrganizationConfig` командлета. Подключитесь к [Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps&preserve-view=true).
+
+* Если пользователь, добавивший соединитель в команду, покидает команду, соединитель продолжает работать.
+
+* Следующие соединители недоступны для использования в январе 2023 г.:
+
+  * АГА
+  * AIRBRAKE
+  * AIRCALL
+  * APPLINKS
+  * APPSIGNAL
+  * BEANSTALK
+  * BITBUCKET
+  * BITBUCKETSERVER
+  * ПРИЯТЕЛЬ
+  * BUGSNAG
+  * BUILDKITE
+  * CATSONE
+  * CHATRA
+  * CIRCLECI
+  * CODESHIP
+  * GETRESPONSE
+  * GHOSTINSPECTOR
+  * GROOVE
+  * HEROKU
+  * HONEYBADGER
+  * ДОМОФОН
+  * LOGENTRIES
+  * NEWRELIC
+  * OPSGENIE
+  * PAGERDUTY
+  * PAPERTRAIL
+  * PINGDOM
+  * PIVOTALTRACKER
+  * RAYGUN
+  * ROLLBAR
+  * RUNSCOPE
+  * SATISMETER
+  * СЕМАФОР
+  * КАРАУЛ
+  * SHAREPOINTNEWS
+  * SIMPLEINOUT
+  * STATUSPAGEIO
+  * SUBVERSION
+  * TEAMFOUNDATIONSERVER
+  * TESTFAIRY
+  * TRAVISCI
+  * UPDOWN
+  * USERLIKE
+  * XPDEV
+
 ## <a name="related-articles"></a>Статьи по теме
 
-* [Обзор настраиваемых соединителей и веб-перехватчиков](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors)
+* [Обзор пользовательских соединителей и веб-перехватчиков](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors)
 * [Создание соединителей Office 365](/microsoftteams/platform/webhooks-and-connectors/how-to/connectors-creating)

@@ -19,12 +19,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Узнайте, как прямая маршрутизация (Майкрософт) позволяет подключить поддерживаемый клиентом пограничный контроллер сеансов (SBC) к телефонной системе.
-ms.openlocfilehash: 3dcdc52e736f6eef1d77a8e2120a5fc6470437d7
-ms.sourcegitcommit: e09591a0df9848b50bfeda29650e91e9d35724af
+ms.openlocfilehash: 5d7912adf0c97bd0d26e6000efdd42d745e55dc3
+ms.sourcegitcommit: 1cb5f7129562eb2b228da23497c0e09e53da3872
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/24/2023
-ms.locfileid: "69981784"
+ms.lasthandoff: 01/25/2023
+ms.locfileid: "69983697"
 ---
 # <a name="plan-direct-routing"></a>Планирование прямой маршрутизации
 
@@ -189,6 +189,11 @@ SBC требует только одно полное доменное имя и
 
 > [!NOTE]
 > Если для подключения Teams в SBC включена поддержка mutual TLS (MTLS), необходимо установить сертификаты Baltimore CyberTrust Root и DigiCert Global Root G2 в доверенном корневом хранилище SBC контекста TEAMS TLS. (Это связано с тем, что сертификаты службы Майкрософт используют один из этих двух корневых сертификатов.) Чтобы скачать эти корневые сертификаты, см[. Office 365 цепочки шифрования](/microsoft-365/compliance/encryption-office-365-certificate-chains). Дополнительные сведения см. в разделе [Изменения сертификата TLS Office](/microsoft-365/compliance/encryption-office-365-tls-certificates-changes).
+  
+Чтобы убедиться, что подключение MTLS исходит из инфраструктуры Teams, необходимо настроить SBC для реализации следующих проверок сертификата на стороне сервера Teams:
+- Убедитесь, что цепочка выдачи сертификатов исходит от одного из следующих корневых ЦС - [Baltimore CyberTrust Root](/microsoft-365/compliance/encryption-office-365-certificate-chains.md#baltimore-cybertrust-root)
+-- [DigiCert Global Root G2](/microsoft-365/compliance/encryption-office-365-certificate-chains.md#digicert-global-root-g2)
+- Убедитесь, что сертификат "Альтернативное имя субъекта" содержит "sip.pstnhub.microsoft.com"
 
 ## <a name="sip-signaling-fqdns"></a>Сигнал sip: полные доменные имена
 
